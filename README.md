@@ -21,6 +21,14 @@ npm run preview
 
 构建结果在 `dist/`，可用于静态托管。
 
+## Netlify 部署
+
+关联 GitHub 仓库 `10522-x/shampoo-atlas`，部署分支选 `main`。根目录的 `netlify.toml` 指定 Node.js 22、构建命令 `npm run build` 和发布目录 `dist`。
+
+手动上传时，先运行 `npm ci`、`npm run build`，再将生成的 `dist/` 文件夹拖入 Netlify 的部署区域。该文件夹根层包含 `index.html`、`assets/`、`fonts/` 和 `illustrations/`。
+
+如果出现 JSX 模块 MIME 错误并伴随字体 404，请检查实际发布目录是否为 `dist`：构建后的首页加载 `/assets/*.js`，字体位于 `/fonts/`。
+
 ## 文件入口
 
 - `AGENTS.md`：已确定的产品规则。
