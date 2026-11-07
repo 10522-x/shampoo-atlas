@@ -1,6 +1,12 @@
 {
   "name": "shampoo-ingredient-guide",
   "version": "0.1.0",
+  "description": "洗发水成分图鉴：按头皮、发质与当前状态浏览 152 条成分资料",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/10522-x/shampoo-atlas.git"
+  },
   "private": true,
   "type": "module",
   "scripts": {

@@ -5,6 +5,8 @@ import path from 'node:path';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
 const target = path.join(root, 'skills', 'shampoo-advisor');
+mkdirSync(target, { recursive: true });
+copyFileSync(path.join(root, 'LICENSE'), path.join(target, 'LICENSE'));
 const sources = [
   ['src/data/ingredients.json', 'data/ingredients.json'],
   ['src/data/modules.js', 'scripts/lib/modules.mjs'],

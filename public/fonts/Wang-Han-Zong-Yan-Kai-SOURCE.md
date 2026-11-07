@@ -1,6 +1,6 @@
 # Wang Han Zong Yan Kai - local web font
 
-- User-supplied source: `E:/桌面/王漢宗顏楷體繁.ttf`
+- User-supplied source: [`font-sources/HanWangYanKai.ttf`](../../font-sources/HanWangYanKai.ttf), originally named `王漢宗顏楷體繁.ttf`.
 - Source SHA-256: `5567cc7ae20d11fd972a83daa0d364baba6867014a25a91b4aedcb0dbbdf1e55`
 - Original family: `HanWangYanKai`; style: `Regular`; OS/2 weight: `400`.
 - Web asset: `wang-han-zong-yan-kai-subset.woff2`.
@@ -14,3 +14,5 @@
 This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or any later version.
 
 License URL embedded in font: http://www.gnu.org/licenses/gpl.txt
+
+The GPL 2 license text is included in [GPL-2.0-Wang-Han-Zong.txt](GPL-2.0-Wang-Han-Zong.txt). The original input and subset build instructions are available in [font-sources/](../../font-sources/).

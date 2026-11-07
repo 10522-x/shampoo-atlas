@@ -79,4 +79,5 @@
 - 当前已按用户选择的 C＋1 实现 React＋Vite 页面；用户已明确同意跳过设计图生成。
 - 本地运行和实现入口见 `README.md`。原始成分资料尚未逐条核对原始文献。
 - Netlify 部署以根目录 `netlify.toml` 为准：Node.js 22，构建命令 `npm run build`，发布目录 `dist`；手动上传也使用构建后的 `dist/` 文件夹。
+- 项目公开仓库为 `https://github.com/10522-x/shampoo-atlas`，原创代码、文档、成分资料整理内容和首页插画采用根目录 MIT `LICENSE`；第三方字体与设计截图的许可范围以 `THIRD_PARTY_NOTICES.md` 为准。保留字体原始输入、独立许可和 skill 交付包内的 MIT 许可。
 - 后续更新本文件时，保留最终确认的规则，及时替换已被用户修正的方案。

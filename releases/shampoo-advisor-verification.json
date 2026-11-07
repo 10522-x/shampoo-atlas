@@ -1,5 +1,5 @@
 {
-  "verifiedAt": "2026-11-07T17:11:15+08:00",
+  "verifiedAt": "2026-11-07T21:50:40+08:00",
   "skill": "shampoo-advisor",
   "snapshotVersion": "1-79c0938692c9",
   "tests": {
@@ -19,19 +19,16 @@
     "freshProcessRuns": 20,
     "freshProcessMedianMs": 90.481,
     "freshProcessP95Ms": 95.092,
-    "scope": "Local lookup and matching, excluding image recognition and AI response generation."
+    "scope": "Local lookup and matching, excluding image recognition and AI response generation.",
+    "recordedAt": "2026-11-07T17:11:15+08:00"
   },
   "isolatedZipExecution": "passed: batch analysis from extracted package in a temporary directory",
-  "installedCopy": {
-    "path": "C:\\Users\\Admin\\.agents\\skills\\shampoo-advisor",
-    "filesMatchSource": true,
-    "lookupSmokeCheck": "passed"
-  },
   "package": {
-    "path": "E:\\桌面\\xffffff\\releases\\shampoo-advisor.zip",
-    "fileCount": 10,
-    "bytes": 43508,
-    "sha256": "f030ba428cce678a2d6a1a488a8e5ea96f2d919108c0b6689ed8aa4c4900743d"
+    "path": "releases/shampoo-advisor.zip",
+    "fileCount": 11,
+    "bytes": 45089,
+    "sha256": "69a0dabbbc79a75a57b3b0ebb1407c8c02a5c5f333c69c01eec2590d0bba9faf",
+    "license": "MIT"
   },
   "limits": [
     "No real user photo was supplied; actual visual transcription and image quality were not tested.",
