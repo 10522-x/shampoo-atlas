@@ -1,0 +1,3 @@
+interface:
+  display_name: "Shampoo Atlas 洗发水分析"
+  short_description: "结合头皮、发质与成分表照片，快速查阅本地资料并给出洗发水建议"

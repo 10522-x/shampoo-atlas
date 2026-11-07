@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>洗发水成分表 · 设计参考</title>
+  <style>
+    :root{color-scheme:light;font-family:Inter,"Microsoft YaHei",sans-serif;color:#17211d;background:#f5f7f6}
+    *{box-sizing:border-box}body{margin:0}main{max-width:1360px;margin:auto;padding:48px 32px 72px}
+    h1{font-size:32px;letter-spacing:-1px;margin:0 0 12px}h2{font-size:24px;margin:0}h3{font-size:20px;margin:0}
+    p{line-height:1.7;margin:8px 0;color:#526159}a{color:#246346;text-underline-offset:4px}
+    header{padding-bottom:26px;border-bottom:1px solid #dce3df}nav{display:flex;gap:24px;flex-wrap:wrap;margin-top:20px}
+    section{padding-top:36px}.intro{display:flex;align-items:baseline;justify-content:space-between;gap:20px;flex-wrap:wrap;margin-bottom:18px}
+    .grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}.grid.two{grid-template-columns:repeat(2,minmax(0,1fr))}
+    article{background:#fff;border:1px solid #dce3df;border-radius:12px;overflow:hidden;display:flex;flex-direction:column}
+    .visual{display:flex;align-items:center;justify-content:center;padding:14px;background:#fbfcfb;min-height:232px;border-bottom:1px solid #e5e9e6;cursor:zoom-in}
+    .visual img{display:block;width:100%;height:205px;object-fit:contain}.two .visual img{height:300px}
+    .copy{padding:20px;flex:1}.copy p{font-size:14px;min-height:48px}.links{display:flex;gap:18px;margin-top:16px;font-size:14px;flex-wrap:wrap}
+    .number{display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;background:#e8eeea;color:#2c4c39;border-radius:6px;margin-right:8px;font-size:16px;vertical-align:1px}
+    .note{margin-top:28px;padding:18px 22px;background:#eaf1ec;border-left:3px solid #35734b;border-radius:0 8px 8px 0}.note p{color:#294e36;margin:0}
+    .source-note{font-size:12px;color:#647168;margin-top:10px}footer{margin-top:32px;font-size:13px;color:#647168;line-height:1.8}
+    dialog{border:0;padding:0;background:white;max-width:95vw;max-height:94vh;border-radius:10px;box-shadow:0 20px 90px #0005}dialog::backdrop{background:#101915b8}
+    .dialog-bar{position:sticky;top:0;background:white;padding:12px 18px;display:flex;justify-content:space-between;align-items:center;gap:20px;border-bottom:1px solid #ddd}
+    dialog img{display:block;max-width:91vw;max-height:80vh;object-fit:contain;margin:16px auto}button{font:inherit;color:inherit;cursor:pointer;border:1px solid #c7d3ca;border-radius:6px;padding:7px 14px;background:white}
+    :focus-visible{outline:3px solid #2d7950;outline-offset:4px}
+    @media(max-width:950px){.grid{grid-template-columns:1fr}.visual img{height:290px}.copy p{min-height:0}}
+    @media(max-width:650px){main{padding:28px 18px 48px}h1{font-size:26px}.grid.two{grid-template-columns:1fr}.visual img,.two .visual img{height:240px}.intro p{font-size:14px}}
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>成分表，选一个你喜欢的方向</h1>
+    <p>先选表格外观 A / B / C，再选左侧筛选方式 1 / 2。点击图片可放大，原站可以直接体验。</p>
+    <nav aria-label="参考分类"><a href="#tables">表格外观</a><a href="#filters">筛选交互</a></nav>
+  </header>
+  <section id="tables">
+    <div class="intro"><h2>表格外观</h2><p>三种外观均可用于相同的总表、绿色推荐表和红色避开表。</p></div>
+    <div class="grid">
+      <article>
+        <a class="visual" href="a-clean-table.jpg" data-image="a-detail.jpg" data-title="A · 清爽细线" aria-label="放大 A 清爽细线参考"><img src="a-detail.jpg" alt="shadcn Tasks 实际截图：白底、细横线、轻量标签的表格"></a>
+        <div class="copy"><h3><span class="number">A</span>清爽细线</h3><p>白底、细横线、轻量标签。视觉干净，整体更像现代查询工具。</p><div class="links"><a href="https://ui.shadcn.com/examples/tasks" target="_blank" rel="noreferrer">打开 shadcn 实例 ↗</a><a href="a-clean-table.jpg" target="_blank">原始截图</a></div></div>
+      </article>
+      <article>
+        <a class="visual" href="b-grid-table.jpg" data-image="b-detail.jpg" data-title="B · 规整网格" aria-label="放大 B 规整网格参考"><img src="b-detail.jpg" alt="Ant Design 带边框实际截图：浅灰表头和清晰网格线"></a>
+        <div class="copy"><h3><span class="number">B</span>规整网格</h3><p>浅灰表头、明确列边界。更接近熟悉的数据表，适合横向比较字段。</p><div class="links"><a href="https://ant.design/components/table-cn/#table-demo-bordered" target="_blank" rel="noreferrer">打开 Ant Design 实例 ↗</a><a href="b-grid-table.jpg" target="_blank">原始截图</a></div></div>
+      </article>
+      <article>
+        <a class="visual" href="c-ingredient-table.jpg" data-image="c-detail.jpg" data-title="C · 成分百科" aria-label="放大 C 成分百科参考"><img src="c-detail.jpg" alt="INKEEDecoder 洗发水成分表实际截图：成分名称、作用和可点击的说明"></a>
+        <div class="copy"><h3><span class="number">C</span>成分百科</h3><p>成分名与作用紧密对应，文字链接为主。更像成分资料库，偏阅读和查询。</p><div class="links"><a href="https://inkeedecoder.com/products/be-minimalist-shampoo" target="_blank" rel="noreferrer">打开成分表实例 ↗</a><a href="c-ingredient-table.jpg" target="_blank">原始截图</a></div><p class="source-note">原 INCIDecoder，目前跳转至 INKEEDecoder。这里只参考排版。</p></div>
+      </article>
+    </div>
+  </section>
+  <section id="filters">
+    <div class="intro"><h2>左侧筛选怎么选</h2><p>两种方式都是选完立即更新，不需要提交按钮。</p></div>
+    <div class="grid two">
+      <article>
+        <a class="visual" href="d-sidebar-filters.jpg" data-image="d-detail.jpg" data-title="1 · 常驻分组选项" aria-label="放大常驻分组选项参考"><img src="d-detail.jpg" alt="Carbon 官方规范图：左侧按类别常驻的复选框与单选框"></a>
+        <div class="copy"><h3><span class="number">1</span>常驻分组选项</h3><p>头皮、发质、状态分别列出选项，点击单选或勾选。所有条件一眼可见，操作直接。</p><div class="links"><a href="https://carbondesignsystem.com/building-blocks/core/patterns/filtering/#selecting-multiple-categories" target="_blank" rel="noreferrer">查看 Carbon 筛选规范 ↗</a><a href="https://carbondesignsystem.com/building-blocks/core/patterns/filtering/#multiple-filters-with-instant-updates" target="_blank" rel="noreferrer">即时更新说明 ↗</a></div><p class="source-note">此图是官方规范示意，不是可直接操作的业务示例。</p></div>
+      </article>
+      <article>
+        <a class="visual" href="a-filter-interaction.jpg" data-image="e-detail.jpg" data-title="2 · 下拉多选" aria-label="放大下拉多选参考"><img src="e-detail.jpg" alt="shadcn 示例的下拉筛选截图，选择 Todo 后立即更新表格"></a>
+        <div class="copy"><h3><span class="number">2</span>下拉多选</h3><p>每组条件收进下拉菜单，展开后选择。占用空间少，但看选项需要多点击一次。</p><div class="links"><a href="https://ui.shadcn.com/examples/tasks" target="_blank" rel="noreferrer">打开示例，点击 Status ↗</a><a href="a-filter-interaction.jpg" target="_blank">原始截图</a></div><p class="source-note">已试用：选择 Todo 后，表格立即只显示相应行。用于本项目时，控件放在左侧。</p></div>
+      </article>
+    </div>
+    <div class="note"><p>我更推荐 <strong>A + 1</strong>：表格清爽，左侧选项直接可见。你也可以选 B + 1 等其他组合。</p></div>
+  </section>
+  <footer>参考采集：2026-11-07。图片来自上述公开页面的浏览器截图，保留原站内容用于设计选择。页面外观与筛选控件可以分别选择；已确定的六模块、自动更新、上绿下红和相同表格列保持一致。</footer>
+</main>
+<dialog id="image-dialog" aria-labelledby="image-title"><div class="dialog-bar"><strong id="image-title"></strong><button type="button" id="close-dialog">关闭</button></div><img id="large-image" alt=""></dialog>
+<script>
+  const viewer=document.querySelector('#image-dialog');let opener;
+  document.querySelectorAll('[data-image]').forEach(link=>link.addEventListener('click',event=>{event.preventDefault();opener=link;document.querySelector('#image-title').textContent=link.dataset.title;const image=document.querySelector('#large-image');image.src=link.dataset.image;image.alt=link.querySelector('img').alt;viewer.showModal()}));
+  document.querySelector('#close-dialog').addEventListener('click',()=>viewer.close());
+  viewer.addEventListener('click',event=>{if(event.target===viewer)viewer.close()});
+  viewer.addEventListener('close',()=>opener?.focus());
+</script>
+</body>
+</html>

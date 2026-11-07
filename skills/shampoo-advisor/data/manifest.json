@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "version": "1-79c0938692c9",
+  "recordCount": 152,
+  "databaseSha256": "984737ddd3cb3e3204b8a0440813e1f1acb8c1a870bb24aea492492dd114a0a8",
+  "aliasesSha256": "db377d05c771f909d4809567468ee0a95b7357fc0b8f631a36437dfb1408272a",
+  "source": "Shampoo Atlas / ai_studio_code.txt",
+  "evidenceStatus": "Source references retained verbatim; not individually verified.",
+  "files": {
+    "src/data/ingredients.json": {
+      "sha256": "984737ddd3cb3e3204b8a0440813e1f1acb8c1a870bb24aea492492dd114a0a8",
+      "bundledPath": "data/ingredients.json",
+      "bundledSha256": "984737ddd3cb3e3204b8a0440813e1f1acb8c1a870bb24aea492492dd114a0a8"
+    },
+    "src/data/modules.js": {
+      "sha256": "62b6fd57cb1be66448b77ec6ecd2f63f6b766583b8a2f9b571d0ca623e466c43",
+      "bundledPath": "scripts/lib/modules.mjs",
+      "bundledSha256": "62b6fd57cb1be66448b77ec6ecd2f63f6b766583b8a2f9b571d0ca623e466c43"
+    },
+    "src/data/profile-options.js": {
+      "sha256": "1ca680dade7fdfb5ff281afd77f4bb443da9fc9c1015ffeeb40a690da58c08db",
+      "bundledPath": "scripts/lib/profile-options.mjs",
+      "bundledSha256": "1ca680dade7fdfb5ff281afd77f4bb443da9fc9c1015ffeeb40a690da58c08db"
+    },
+    "src/lib/matching.js": {
+      "sha256": "d9679694c6766a6c5ac06a4260e0473f89f41174d5de608926f8cf4c08b92ec7",
+      "bundledPath": "scripts/lib/matching.mjs",
+      "bundledSha256": "dc4de6bad0160cc394fac4622629bfb7275615222cb8af1739039fe93ca478f6"
+    }
+  }
+}

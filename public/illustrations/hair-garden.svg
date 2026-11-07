@@ -1,0 +1,176 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1000" viewBox="0 0 1400 1000" fill="none">
+  <title>A quiet afternoon by the water</title>
+  <desc>An original editorial illustration of a woman with flowing hair resting beside a blue river, with a winding cream path, little visitors, flowers and gentle soap bubbles. Blush pink, powder blue and berry palette.</desc>
+  <defs>
+    <clipPath id="frame"><path d="M0 0h1400v1000H0z"/></clipPath>
+    <filter id="paper" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency=".64" numOctaves="3" stitchTiles="stitch" result="grain"/>
+      <feColorMatrix in="grain" type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope=".035"/></feComponentTransfer>
+      <feBlend in="SourceGraphic" mode="multiply"/>
+    </filter>
+    <g id="daisy">
+      <path d="M0 16c1-31 9-69 15-90" stroke="#547B9D" stroke-width="4" stroke-linecap="round"/>
+      <path d="M4-16C-26-15-34-31-31-48c20 0 35 12 35 32Z" fill="#AAC6DC"/>
+      <path d="M8-37c23 1 38-12 40-32-23-3-39 11-40 32Z" fill="#759BB8"/>
+      <g transform="translate(17 -78) rotate(-12)">
+        <ellipse rx="27" ry="11" fill="#FFFEF6"/>
+        <ellipse rx="27" ry="11" transform="rotate(60)" fill="#FFFEF6"/>
+        <ellipse rx="27" ry="11" transform="rotate(120)" fill="#FFFEF6"/>
+        <ellipse rx="9" ry="7" fill="#E9AF68"/>
+      </g>
+    </g>
+    <g id="small-tree">
+      <path d="M0 0v92" stroke="#AA8E8C" stroke-width="5"/>
+      <path d="M-47 15C-52-10-36-43-12-48c25-8 47 14 52 42 17 5 21 22 13 38-14 23-39 24-59 20-26 5-44-9-41-37Z" fill="#ADC5D9"/>
+      <path d="M0 48V6m0 24 18-14M0 13-12 0" stroke="#8EAFC9" stroke-width="3" stroke-linecap="round"/>
+    </g>
+    <g id="bench">
+      <path d="m0 31-5 32m65-31 6 31M7 0v36m51-36v36" stroke="#718CA8" stroke-width="4" stroke-linecap="round"/>
+      <path d="M2 0h62v21H2z" fill="#91AEC6"/>
+      <path d="M-3 29h73v7H-3z" fill="#6F8FAA"/>
+      <path d="M5 9h57" stroke="#D2DFE9" stroke-width="2"/>
+    </g>
+    <g id="bubble">
+      <circle r="18" fill="#FFFDF8" fill-opacity=".22" stroke="#FFFDF8" stroke-opacity=".8" stroke-width="2"/>
+      <path d="M-10-5c1-4 4-6 7-7" stroke="#FFFDF8" stroke-width="3" stroke-linecap="round"/>
+    </g>
+  </defs>
+  <g clip-path="url(#frame)">
+    <path d="M0 0h1400v1000H0z" fill="#F7C8CF"/>
+    <!-- Open sky and soft, cut-paper clouds. -->
+    <path d="M-30 116c49 0 55 40 96 40 41 0 41-41 84-41 48 0 57 61 104 61 27 0 47-23 76-13 17 6 25 17 29 26H-30Z" fill="#FFF7F1"/>
+    <path d="M592 94c20 4 30 23 48 23 24 0 27-37 58-37 32 0 38 35 62 35 23 0 26-14 44-11 9 2 17 8 21 16H572c2-17 8-28 20-26Z" fill="#FCE8E5"/>
+    <path d="M846 217c27 1 30-24 56-24 20 0 26 20 43 20 16 0 20-9 34-8 13 1 25 8 29 15H819c9-8 14-6 27-3Z" fill="#FFF7F1"/>
+    <path d="M1214 111c16 0 18-18 35-18 20 0 24 23 43 23 14 0 19-9 31-8 9 1 14 4 20 10h-150c6-7 12-7 21-7Z" fill="#FDE4E3"/>
+    <circle cx="1064" cy="107" r="38" fill="#F8DDA9"/>
+    <path d="M1013 108h104" stroke="#F7C8CF" stroke-width="3"/>
+    <!-- Distant hills and the slow river. -->
+    <path d="M-50 393c69-76 104-64 154-66 73-4 99 63 166 55 76-9 89-70 172-77 101-10 153 62 245 55 74-5 122-51 199-42 92 11 98 70 170 56 96-20 175-56 244-10 64 43 117 12 150-11v220H-50Z" fill="#C7C2D7"/>
+    <path d="M-40 422c105-27 140-11 220-23 63-9 106-5 166 8 75 17 124 3 204-8 100-14 187 14 278 13 93-2 174-27 261-14 116 16 198 14 351-18v165H-40Z" fill="#B8C9DD"/>
+    <path d="M-20 440c129-5 285-10 414-4 147 8 208 38 334 29 139-10 188-25 301-19 134 7 264-15 395-30v366H-20Z" fill="#B9DBE5"/>
+    <path d="M-20 521c189 27 307-32 475-12 195 23 262 71 451 43 197-30 337-28 518-24v240H-20Z" fill="#AFD3E0"/>
+    <path d="M37 468h170m226 2h89m70 35h128m225-17h114m74 15h134M62 575h108m355-32h68m136 41h102m250-35h99" stroke="#D8ECED" stroke-width="4" stroke-linecap="round"/>
+    <path d="m257 465 47-1m502 54 49 1m272-77h52" stroke="#F6F3EA" stroke-width="2" stroke-linecap="round"/>
+    <!-- A small far-bank garden and a boat. -->
+    <use href="#small-tree" transform="translate(100 356) scale(.76)"/>
+    <use href="#small-tree" transform="translate(194 373) scale(.52)"/>
+    <use href="#small-tree" transform="translate(1342 361) scale(.68)"/>
+    <path d="M345 442c10 12 53 15 67 0Z" fill="#CF7E98"/>
+    <path d="m369 431 15-38 5 38Z" fill="#FFF8EB"/>
+    <path d="M383 391v51" stroke="#A1808F" stroke-width="2"/>
+    <path d="M344 456h75" stroke="#93BED2" stroke-width="3" stroke-linecap="round"/>
+    <!-- Pale wandering path, between water and the foreground garden. -->
+    <path d="M-40 679C174 593 318 605 494 584c256-30 472-71 686-76 124-4 198-2 260-5v119c-194-1-308 6-472 38-200 39-380 31-563 79-179 47-293 100-445 116Z" fill="#F8EBD4"/>
+    <path d="M-40 688c214-85 359-75 535-96 258-30 470-70 684-76" stroke="#FFF5E4" stroke-width="5"/>
+    <path d="M970 627c189-27 318-24 470-27" stroke="#E9D9C7" stroke-width="2"/>
+    <path d="M-40 840c198-40 330-119 531-138 211-19 291-46 457-56 196-11 308 13 492-55v449H-40Z" fill="#94B6CE"/>
+    <path d="M-40 909c207-90 292-74 496-104 230-33 324-62 529-35 144 20 278-9 455-63v333H-40Z" fill="#7399B7"/>
+    <!-- Tiny park visitors give the landscape a generous sense of scale. -->
+    <use href="#bench" transform="translate(620 515) scale(.8)"/>
+    <path d="m646 538 11 22 18 4m-21-24-1 22-12 9" stroke="#8C6F7E" stroke-width="5" stroke-linecap="round"/>
+    <path d="M643 514c-10 2-9 19-4 27l20-3-8-25Z" fill="#F19AAF"/>
+    <circle cx="647" cy="504" r="8" fill="#EAC1AE"/>
+    <path d="M639 503c-2-10 11-13 15-5l1 9-6-4Z" fill="#7A5860"/>
+    <path d="m651 522 13 5 11-10" stroke="#EAC1AE" stroke-width="4" stroke-linecap="round"/>
+    <path d="m675 513 8-2 3 9-8 3Z" fill="#FFF8EB"/>
+    <use href="#bench" transform="translate(1133 509) scale(.72)"/>
+    <path d="M537 507v50m-5 0h10" stroke="#809DB6" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="537" cy="503" r="8" fill="#FFF9E9"/>
+    <path d="M1056 499v37" stroke="#8AA4BD" stroke-width="3"/>
+    <circle cx="1056" cy="493" r="7" fill="#FFF9E9"/>
+    <!-- A walker in a coral coat, and a little white dog. -->
+    <path d="m270 617-7 34-15 9m30-41 7 30 14 7" stroke="#64778F" stroke-width="7" stroke-linecap="round"/>
+    <path d="M260 578c-7 8-11 23-11 40 9 5 24 4 34-2-3-18-5-31-13-38Z" fill="#CF245B"/>
+    <path d="m254 590-14 13-12-7m47-3 15 12 16-5" stroke="#EDC1AD" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="263" cy="566" r="11" fill="#EBC0AA"/>
+    <path d="M253 566c-5-12 8-20 18-12l3 9-12-3-4 9Z" fill="#80545B"/>
+    <path d="m304 601 40 31" stroke="#A37B8E" stroke-width="2"/>
+    <path d="M343 632c12-8 24-5 31 2l2 13h-32l-8-5Z" fill="#FFF9EB"/>
+    <path d="m346 645-2 11m24-10 3 9" stroke="#FFF9EB" stroke-width="5" stroke-linecap="round"/>
+    <path d="M372 634c0-10 4-18 11-17l3 11-8 13Z" fill="#FFF9EB"/>
+    <path d="M345 635c-10-10-14-5-14-1" stroke="#FFF9EB" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="382" cy="625" r="1.5" fill="#6B555B"/>
+    <!-- A child has found a feather. -->
+    <path d="m440 642 1 23m11-22 7 21" stroke="#E7BFAE" stroke-width="5" stroke-linecap="round"/>
+    <path d="M435 615c-4 9-5 20-1 29l22-2-2-28Z" fill="#ECD094"/>
+    <path d="m438 624-14-9m29 7 13-14" stroke="#EDC7B3" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="445" cy="603" r="9" fill="#ECC1AC"/>
+    <path d="M437 602c-2-11 12-15 17-6v4l-12-2-3 5Z" fill="#86666B"/>
+    <path d="m465 608 5-10m-3 6c-8-9-2-15 4-15 5 8 2 13-4 15Z" fill="#FFF8E9"/>
+    <!-- A quiet woman, close to the viewer; her hair follows the river's curves. -->
+    <ellipse cx="1001" cy="794" rx="186" ry="24" fill="#668DAD" fill-opacity=".44"/>
+    <path d="M937 692c50-15 118-7 155 24 22 20 37 49 46 85-66 25-137 23-201 14-46-6-89-13-127-8 33-30 72-47 127-115Z" fill="#F5DCC4"/>
+    <path d="M991 719c-3 33-25 56-62 76m104-65c17 23 27 50 29 77" stroke="#E8C4AA" stroke-width="3" stroke-linecap="round"/>
+    <path d="M988 451c32-15 79-5 100 20 32 38 24 106 30 151 3 23 20 51 40 72-32 24-78 34-117 24-42-11-76-15-113-15-6-38 7-72 3-111-4-45 3-110 57-141Z" fill="#EF91AA"/>
+    <path d="M984 463c-17 18-26 45-30 79-4 37-10 76-31 95-16 15-42 22-63 39l-25 26 13 14c32-21 61-27 93-44 35-17 53-47 59-86l15-88Z" fill="#F5A5B9"/>
+    <path d="m844 701-18 12-13 21c-2 5 3 8 6 6l11-13 3 1-4 12c-1 4 4 6 6 2l11-15 12-12Z" fill="#F4CEB5"/>
+    <path d="M1003 397c-2 22-4 43-15 61 4 18 29 27 48 10l3-65Z" fill="#E8B298"/>
+    <path d="M1005 350c-22 6-30 20-33 43l-10 17c-2 4 2 6 9 7l-1 16c2 14 18 17 39 8 25-11 39-30 37-56-2-25-18-41-41-35Z" fill="#F6D4BB"/>
+    <path d="M975 392c5-3 10-3 14-1" stroke="#936568" stroke-width="2" stroke-linecap="round"/>
+    <path d="m974 426 8 1" stroke="#D38B8E" stroke-width="2" stroke-linecap="round"/>
+    <path d="M987 350c19-31 67-30 90-1 21 26 12 53 25 82 16 38 43 48 55 80 18 47-5 74 4 112 8 35 36 58 62 74-30 10-62 7-86-12-20-16-32-39-34-65-4-39 11-66-7-104-15-33-51-47-65-76-14-30-3-57-18-69-8-7-18-6-28-4-10 2-19 8-19 8 0-11 6-19 21-25Z" fill="#885862"/>
+    <path d="M1026 348c35 3 42 30 43 59 2 40 42 60 51 98 9 33-10 58-3 95 7 36 27 59 49 72" stroke="#A6747A" stroke-width="5" stroke-linecap="round"/>
+    <path d="M1038 355c9 13 11 32 13 53 4 47 40 63 45 100" stroke="#B98A8C" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M1063 472c5 35-9 69-7 106 1 34 16 66 39 85" stroke="#D97899" stroke-width="3" stroke-linecap="round"/>
+    <!-- A tiny care bottle and a folded towel, placed beside her. -->
+    <path d="M1157 749h83c7 0 12 5 12 11v11h-95Z" fill="#F4D8C5"/>
+    <path d="M1161 758h83m-71 8h66" stroke="#E0BFAF" stroke-width="2" stroke-linecap="round"/>
+    <path d="M1192 694h31v58h-31z" fill="#FFF9EC"/>
+    <path d="M1188 698c0-7 4-11 11-11h17c7 0 11 4 11 11v49c0 5-4 8-9 8h-22c-5 0-8-3-8-8Z" fill="#FFF9EC"/>
+    <path d="M1200 679h15v10h-15z" fill="#B88295"/>
+    <path d="M1200 675h29v5h-29z" fill="#8D657D"/>
+    <path d="M1189 714h37v21h-37z" fill="#EDB3C2"/>
+    <path d="M1200 722h15" stroke="#FFF9EC" stroke-width="3" stroke-linecap="round"/>
+    <!-- Sculptural trees frame the view instead of surrounding it. -->
+    <path d="M1387-52c-94 5-152 34-169 90-19 62 19 90 13 133-8 56-52 77-37 136 18 72 74 69 104 109 22 30 14 59 43 89 30 31 69 31 103 20V-52Z" fill="#9EBED2"/>
+    <path d="M1432 589c-21-80-52-166-77-235-27-76-36-156-40-212" stroke="#6E98B5" stroke-width="19" stroke-linecap="round"/>
+    <path d="m1359 371-81-59m47-88 63-53m-39 133 45-25m-80-119-46-35" stroke="#6E98B5" stroke-width="12" stroke-linecap="round"/>
+    <path d="m1240 87 23 13-20 10-18-15m111-40 21 16-14 19-19-18m15 154 26-3-8 22-21 3m-114-6 24 14-18 17-24-16" fill="#7FA6C1"/>
+    <!-- Long blue leaves, white flowers, and warm seed heads in the near garden. -->
+    <path d="M60 1030c-6-111 32-221 91-308" stroke="#507F9F" stroke-width="8" stroke-linecap="round"/>
+    <path d="M88 852C15 837-9 784 5 744c69 13 110 56 83 108Z" fill="#ADC8DC"/>
+    <path d="M102 813c-12-66 11-110 63-125 17 63-10 108-63 125Z" fill="#B8D3E3"/>
+    <path d="M73 931C9 936-33 901-28 859c67-10 106 21 101 72Z" fill="#94B7D0"/>
+    <path d="M91 884c62-44 116-36 144 3-52 47-107 45-144-3Z" fill="#ADCADD"/>
+    <path d="M113 789c6-28 13-49 25-70M22 763c21 18 39 40 55 66m34 57c30-3 65-1 93 5" stroke="#759FBE" stroke-width="2" stroke-linecap="round"/>
+    <path d="M328 1050c13-110 26-161 11-231-9-43-26-74-51-103" stroke="#547F9F" stroke-width="6" stroke-linecap="round"/>
+    <path d="M321 842c-72-20-102-66-87-103 61 13 96 52 87 103Z" fill="#B7D0E1"/>
+    <path d="M339 889c53-75 95-78 128-54-22 60-70 81-128 54Z" fill="#9DBFD6"/>
+    <path d="M337 966c-67 5-108-25-113-66 64-8 108 13 113 66Z" fill="#8AB1CC"/>
+    <path d="M282 713c-11-32-7-59 11-70 23 24 18 51-11 70Z" fill="#F1C9D4"/>
+    <path d="M482 1009c10-90 39-185 83-254" stroke="#547F9F" stroke-width="5" stroke-linecap="round"/>
+    <path d="M526 848c-50-8-71-41-63-68 43 4 71 29 63 68Z" fill="#A3C5D9"/>
+    <path d="M508 894c46-47 80-47 105-19-31 41-69 51-105 19Z" fill="#ADCBDC"/>
+    <g transform="translate(571 752) rotate(19)">
+      <path d="M0 0c-30-5-43-27-33-46 20 2 35 17 33 46Z" fill="#F4CED7"/>
+      <path d="M-1 0c28-13 38-35 25-51C5-45-6-26-1 0Z" fill="#EDABC0"/>
+      <path d="M-1-1c-15-27-11-48 8-56C21-37 16-16-1-1Z" fill="#F9E0E3"/>
+    </g>
+    <use href="#daisy" transform="translate(630 1080) scale(1.7) rotate(-12)"/>
+    <use href="#daisy" transform="translate(761 1037) scale(2.1) rotate(9)"/>
+    <use href="#daisy" transform="translate(899 1072) scale(1.4) rotate(18)"/>
+    <path d="M1069 1040c-1-106 39-216 90-291" stroke="#537C9E" stroke-width="7" stroke-linecap="round"/>
+    <path d="M1101 894c-51-35-69-87-39-122 45 26 69 73 39 122Z" fill="#AAC8DC"/>
+    <path d="M1122 855c15-63 57-90 96-69-10 55-45 85-96 69Z" fill="#B6D2E3"/>
+    <path d="M1087 954c63-25 113-10 127 30-59 27-106 17-127-30Z" fill="#8EB3CD"/>
+    <path d="M1222 1045c-15-95-9-174 35-239" stroke="#507B9D" stroke-width="7" stroke-linecap="round"/>
+    <path d="M1230 944c-44-45-55-91-28-122 44 36 55 79 28 122Z" fill="#91B6D1"/>
+    <path d="M1221 982c58-44 100-43 126-10-44 43-86 44-126 10Z" fill="#A4C4D9"/>
+    <path d="M1252 837c-3-45 19-74 50-74 10 40-9 69-50 74Z" fill="#D689A3"/>
+    <path d="m1261 823 26-43m-23 32 18 4m-11-15-4-13" stroke="#B95D83" stroke-width="2" stroke-linecap="round"/>
+    <path d="M1337 1042c-36-103-11-200 44-260" stroke="#557E9F" stroke-width="7" stroke-linecap="round"/>
+    <path d="M1332 932c-43-20-62-53-49-83 41 14 64 45 49 83Z" fill="#9ABCD5"/>
+    <path d="M1350 879c19-54 53-72 84-49-16 45-47 65-84 49Z" fill="#B1CFE1"/>
+    <!-- Soap-light bubbles and two drifting petals. -->
+    <use href="#bubble" transform="translate(828 362) scale(1.25)"/>
+    <use href="#bubble" transform="translate(787 411) scale(.62)"/>
+    <use href="#bubble" transform="translate(1186 394) scale(.82)"/>
+    <use href="#bubble" transform="translate(1152 345) scale(.42)"/>
+    <use href="#bubble" transform="translate(684 710) scale(.48)"/>
+    <path d="M556 291c10-9 23-7 26 2-11 6-21 8-26-2Z" fill="#FFF4E5"/>
+    <path d="M598 323c-8-6-9-17-2-21 8 7 10 16 2 21Z" fill="#EFA2B6"/>
+    <path d="m765 254 7-8 8 6m-7-1 2 8" stroke="#D995AA" stroke-width="2" stroke-linecap="round"/>
+    <path d="M0 0h1400v1000H0z" fill="#FFF8F0" fill-opacity=".01" filter="url(#paper)"/>
+  </g>
+</svg>
