@@ -37,7 +37,7 @@ node scripts/analyze.mjs --lookup "月桂醇硫酸酯钠" --pretty
 - `database`: 记录数、数据 SHA-256、快照版本；`profile`: 实际用于匹配的属性。
 - `products[]`: 每款 `name`、`label`、`summary`、`rows`、`explicitAvoidStatus`、`limitations`。
 - `summary`: 总条目、已确认入库数、未收录数、模糊／歧义数、support／caution／neutral 数。重复标签保留原位置，匹配数量按条目计数而非独立成分；`uniqueMatched` 单列去重数量。
-- `rows[]`: `position`、`input`、可选 `section`。已确认记录有 `status: matched`、规范 `id` / `cn` / `inci`、模块、`signal`、`matchedTags`、`func`、`synergy`、`src`、`sourceGrade`。`--full` 额外返回 `record`，原样含 `best`、`avoid` 等全部字段。没有截断资料文本。
+- `rows[]`: `position`、`input`、可选 `section`。已确认记录有 `status: matched`、规范 `id` / `cn` / `inci`、模块、`signal`、`matchedTags`、`func`、`synergy`、`src`，以及 `refs`、`evidence`、`cautions`、`regulatory`、`isDrug`、`consumerMatch`、`typicalProduct`。`--full` 额外返回规范记录。schemaVersion 2 移除了无依据的 `sourceGrade`；来源核实进度不等于功效等级。
 - 未确认行的 `status` 为 `uncertain`、`ambiguous` 或 `unlisted`，`candidates` 仅为核对候选，不纳入命中或匹配。名称统一全半角、空格与常用连字符；字母大小写不敏感；数字及逗号、斜杠等语义仍保留。
 - `explicitAvoidStatus`: 用户具体避开名的确认出现位置、疑似位置，以及 `present` / `uncertain` / `not_confirmed`。未入库的避开名称也进行**完整名称**比较；“香精”不会靠子串命中“乙基香精”或自动扩展到精油。对于照片里的不确定条目，仍返回可能相关的位置。
 - `limitations`: 按实际缺口给出条件，包含标签不完整／未知、条目未覆盖、没有用户条件和单成分标签不等于配方结论。始终披露文献尚未逐条核验。不会生成整瓶评分或强制二选一。

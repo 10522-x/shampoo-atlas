@@ -1,0 +1,236 @@
+{
+  "cetrimonium-chloride": {
+    "func": "阳离子季铵盐，用于抗静电和发丝调理；防腐用途有独立限量。",
+    "best": [
+      "需要抗静电与改善梳理的发丝"
+    ],
+    "avoid": [],
+    "cautions": [
+      "已知西曲氯铵过敏者避免使用；适用限量随用途和产品类型而变。"
+    ],
+    "synergy": "用量、阴离子表活相容性和沉积量取决于完整配方；调理等非防腐用途与防腐用途适用不同浓度上限。",
+    "src": "Reg. (EU) 866/2014：Annex III 265 / Annex V 44",
+    "regulatory": [
+      {
+        "region": "EU",
+        "use": "非防腐用途的淋洗型发用产品",
+        "note": "调理等非防腐用途：淋洗型发用产品中，西曲氯铵与硬脂基三甲基氯化铵各自或合计最高2.5%；驻留型发用产品最高1.0%，驻留型面部产品最高0.5%（附录III条目265）。",
+        "verified": true,
+        "ref": "https://eur-lex.europa.eu/eli/reg/2014/866/oj/eng"
+      },
+      {
+        "region": "EU",
+        "use": "防腐用途",
+        "note": "防腐用途：附录V条目44所列烷基(C12–22)三甲基溴化铵及氯化铵最高0.1%。",
+        "verified": true,
+        "ref": "https://eur-lex.europa.eu/eli/reg/2014/866/oj/eng"
+      }
+    ],
+    "refs": [
+      {
+        "title": "Commission Regulation (EU) No 866/2014",
+        "url": "https://eur-lex.europa.eu/eli/reg/2014/866/oj/eng",
+        "verified": true,
+        "scope": "附录III 265的非防腐用途分类限值；附录V 44的防腐限值，不表示对所有配方的功效背书。"
+      }
+    ]
+  },
+  "climbazole": {
+    "func": "咪唑类抗真菌成分，可用于符合当地规定的淋洗型去屑洗发水。",
+    "best": [
+      "头屑护理（以当地允许的淋洗型产品用途和标签为准）"
+    ],
+    "avoid": [],
+    "cautions": [
+      "已知氯咪巴唑过敏者避免使用。"
+    ],
+    "synergy": "复配表现受浓度、pH和载体影响；欧盟去屑用途和防腐用途的浓度上限分别管理。",
+    "src": "Reg. (EU) 2019/698：Annex III 310 / Annex V 32",
+    "regulatory": [
+      {
+        "region": "EU",
+        "use": "非防腐目的的淋洗型去屑洗发水",
+        "note": "非防腐目的的淋洗型去屑洗发水：氯咪巴唑最高2.0%，用途须从产品呈现中可辨。2019-11-27起不合规产品不得投放欧盟市场，2020-02-27起不得继续提供。",
+        "effectiveDate": "2019-11-27",
+        "verified": true,
+        "ref": "https://eur-lex.europa.eu/eli/reg/2019/698/oj/eng"
+      },
+      {
+        "region": "EU",
+        "use": "淋洗型洗发水的防腐用途",
+        "note": "防腐用途：淋洗型洗发水最高0.5%；发用乳液、面霜及足部护理产品最高0.2%。",
+        "effectiveDate": "2019-11-27",
+        "verified": true,
+        "ref": "https://eur-lex.europa.eu/eli/reg/2019/698/oj/eng"
+      }
+    ],
+    "refs": [
+      {
+        "title": "Commission Regulation (EU) 2019/698",
+        "url": "https://eur-lex.europa.eu/eli/reg/2019/698/oj/eng",
+        "verified": true,
+        "scope": "第1至3条及两份附录确认用途、最高浓度和过渡日期；法规引用SCCS/1600/18，不等同于洗发水整瓶功效保证。"
+      }
+    ]
+  },
+  "zinc-pyrithione": {
+    "func": "曾用于去屑产品的抗真菌成分；在欧盟化妆品中已禁用。",
+    "best": [],
+    "avoid": [],
+    "consumerMatch": false,
+    "cautions": [
+      "产品是否允许使用该成分，须按销售地区、产品类别及当地规定确认。"
+    ],
+    "synergy": "欧盟化妆品禁用依据为CMR 1B生殖毒性分类及法规豁免条件未满足；其他地区的管理要求须按当地规定确认。",
+    "src": "Reg. (EU) 2021/1902：Annex II 1670",
+    "regulatory": [
+      {
+        "region": "EU",
+        "use": "化妆品",
+        "note": "化妆品用途：2022-03-01起列入欧盟禁用清单（附录II 1670）；CMR 1B（生殖毒性）。法规同时说明虽有SCCS对特定去屑用途的评估，但未证实不存在合适替代物，豁免条件未满足。",
+        "effectiveDate": "2022-03-01",
+        "verified": true,
+        "ref": "https://eur-lex.europa.eu/eli/reg/2021/1902/oj/eng"
+      }
+    ],
+    "refs": [
+      {
+        "title": "Commission Regulation (EU) 2021/1902",
+        "url": "https://eur-lex.europa.eu/eli/reg/2021/1902/oj/eng",
+        "verified": true,
+        "scope": "序言5至8、第2条和附录II 1670支持欧盟化妆品禁用原因与生效日；不支持全球禁用结论。"
+      }
+    ]
+  },
+  "cyclopentasiloxane": {
+    "func": "挥发性环状硅氧烷，主要用于铺展和作为载体。",
+    "best": [],
+    "avoid": [],
+    "consumerMatch": false,
+    "cautions": [
+      "欧盟用途限制随产品类别、质量分数和生效日期变化。"
+    ],
+    "synergy": "作为挥发性载体改善铺展与洗感，具体表现取决于完整配方；不同化妆品类别的欧盟REACH适用日期不同。",
+    "src": "Reg. (EU) 2024/1328：REACH Annex XVII 70",
+    "regulatory": [
+      {
+        "region": "EU",
+        "use": "淋洗型化妆品中的D5",
+        "note": "淋洗型化妆品中，D5自身质量分数达到或超过0.1%时不得投放欧盟市场，自2020-01-31起适用。",
+        "effectiveDate": "2020-01-31",
+        "verified": true,
+        "ref": "https://eur-lex.europa.eu/eli/reg/2024/1328/oj/eng"
+      },
+      {
+        "region": "EU",
+        "use": "其他化妆品（包括驻留型产品）中的D5",
+        "note": "其他化妆品（包括驻留型产品）中，REACH条目70第3(b)款将D5自身质量分数达到或超过0.1%的投放市场限制延至2027-06-06适用。",
+        "effectiveDate": "2027-06-06",
+        "verified": true,
+        "ref": "https://eur-lex.europa.eu/eli/reg/2024/1328/oj/eng"
+      }
+    ],
+    "refs": [
+      {
+        "title": "Commission Regulation (EU) 2024/1328",
+        "url": "https://eur-lex.europa.eu/eli/reg/2024/1328/oj/eng",
+        "verified": true,
+        "scope": "替换REACH附录XVII条目70；支持D4/D5淋洗2020条款、一般规则与其他化妆品2027过渡，不支持把所有含D5产品称为全球禁用。"
+      }
+    ]
+  },
+  "cyclohexasiloxane": {
+    "func": "挥发性环状硅氧烷，可用于改善铺展和肤感。",
+    "best": [],
+    "avoid": [],
+    "consumerMatch": false,
+    "cautions": [
+      "欧盟D6淋洗用途的具体适用日期仍需结合产品类别与主管机构解释核对。"
+    ],
+    "synergy": "铺展、载体和肤感表现取决于完整配方。欧盟REACH条目70包含通用限制及按产品类别区分的过渡条款。",
+    "src": "Reg. (EU) 2024/1328：REACH Annex XVII 70（D6淋洗适用日待核实）",
+    "regulatory": [
+      {
+        "region": "EU",
+        "use": "D6通用混合物限制与化妆品过渡条款",
+        "note": "D6一般混合物的REACH投放市场限制以各物质自身质量分数达到或超过0.1%为阈值，总则日期为2026-06-06；第3(b)款对“除第3(a)款提及者外的其他化妆品”延至2027-06-06。D6淋洗化妆品的具体适用日期待核实。",
+        "verified": true,
+        "ref": "https://eur-lex.europa.eu/eli/reg/2024/1328/oj/eng"
+      }
+    ],
+    "refs": [
+      {
+        "title": "Commission Regulation (EU) 2024/1328",
+        "url": "https://eur-lex.europa.eu/eli/reg/2024/1328/oj/eng",
+        "verified": true,
+        "scope": "核对第1款及第3(a)、3(b)款的原文和日期；D6淋洗类别的适用日期解释仍待进一步核实，不能由verified推导为所有用途结论均已确认。"
+      }
+    ]
+  },
+  "ketoconazole": {
+    "func": "药用抗真菌成分，可见于去屑药用洗剂。",
+    "best": [],
+    "avoid": [],
+    "consumerMatch": false,
+    "isDrug": true,
+    "typicalProduct": [
+      "medicated-shampoo"
+    ],
+    "cautions": [
+      "按当地药品说明书或医嘱使用。",
+      "已知酮康唑或产品其他成分过敏者不使用；孕期、哺乳期等按具体药品标签咨询医师。"
+    ],
+    "synergy": "药用去屑洗剂的适应证、浓度、频率和疗程以当地产品说明书为准。",
+    "src": "DailyMed：Nizoral ketoconazole 1%药品标签",
+    "regulatory": [
+      {
+        "region": "US",
+        "use": "Nizoral ketoconazole 1%药用洗发水标签示例",
+        "note": "美国Nizoral 1%酮康唑洗发水标签用途为控制头屑相关脱屑和瘙痒，含过敏、破损或发炎头皮及孕哺期等使用提示。其他地区、浓度或剂型以各自批准标签为准。",
+        "verified": true,
+        "ref": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8dd6b2f1-f438-4be1-a6c4-4f6c8902dfb6"
+      }
+    ],
+    "refs": [
+      {
+        "title": "DailyMed: NIZORAL ketoconazole shampoo, 1%",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8dd6b2f1-f438-4be1-a6c4-4f6c8902dfb6",
+        "verified": true,
+        "scope": "药品标签的去屑用途、禁用与警示；不支持DHT抑制或生发结论，也不代替中国药品监管核对。"
+      }
+    ]
+  },
+  "selenium-sulfide": {
+    "func": "可用于药用去屑洗剂的抗真菌成分。",
+    "best": [],
+    "avoid": [],
+    "consumerMatch": false,
+    "isDrug": true,
+    "typicalProduct": [
+      "medicated-shampoo"
+    ],
+    "cautions": [
+      "按当地药品说明书或医嘱使用。",
+      "已知产品成分过敏者不使用；标签提示可能刺激、致敏或使发色改变，使用后充分冲洗。"
+    ],
+    "synergy": "药用混悬液标签列有头屑、头皮脂溢性皮炎和花斑糠疹用途；具体使用部位、方法和频率以当地药品说明书为准。",
+    "src": "DailyMed：Selenium Sulfide Topical Suspension USP 2.5%药品标签",
+    "regulatory": [
+      {
+        "region": "US",
+        "use": "2.5%二硫化硒药用混悬液标签示例",
+        "note": "美国2.5%二硫化硒药用混悬液的所核对标签为处方药，适应证包括花斑糠疹、头皮脂溢性皮炎和头屑。其他地区、浓度或剂型以各自批准标签为准。",
+        "verified": true,
+        "ref": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=28b84e3c-ae44-40bb-93c4-2625e19f7e61"
+      }
+    ],
+    "refs": [
+      {
+        "title": "DailyMed: Selenium Sulfide Topical Suspension USP, 2.5%",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=28b84e3c-ae44-40bb-93c4-2625e19f7e61",
+        "verified": true,
+        "scope": "药用产品标签的头屑、脂溢性皮炎与花斑糠疹适应证，以及过敏、刺激和发色改变提示；不代替中国药品监管核对。"
+      }
+    ]
+  }
+}

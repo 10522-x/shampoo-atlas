@@ -1,21 +1,22 @@
 {
-  "schemaVersion": 1,
-  "version": "1-79c0938692c9",
+  "schemaVersion": 2,
+  "version": "2-17261b15e9df",
   "recordCount": 152,
-  "databaseSha256": "984737ddd3cb3e3204b8a0440813e1f1acb8c1a870bb24aea492492dd114a0a8",
-  "aliasesSha256": "db377d05c771f909d4809567468ee0a95b7357fc0b8f631a36437dfb1408272a",
-  "source": "Shampoo Atlas / ai_studio_code.txt",
-  "evidenceStatus": "Source references retained verbatim; not individually verified.",
+  "databaseSha256": "dd449f8261637fdc859c4eb8381f5cad02437145fabcc75a4b48cb5d64a81f19",
+  "aliasesSha256": "3d344f4fd689d528e5bbf9ecd46fdfbe6e9405df80327e2c003f444ba9445859",
+  "source": "Shampoo Atlas / src/data/ingredients.json; original import retained in ai_studio_code.txt",
+  "rawSourceSha256": "984737ddd3cb3e3204b8a0440813e1f1acb8c1a870bb24aea492492dd114a0a8",
+  "evidenceStatus": "Reviewed schema; reference verification is scoped per record. Unverified references remain explicitly marked.",
   "files": {
     "src/data/ingredients.json": {
-      "sha256": "984737ddd3cb3e3204b8a0440813e1f1acb8c1a870bb24aea492492dd114a0a8",
+      "sha256": "dd449f8261637fdc859c4eb8381f5cad02437145fabcc75a4b48cb5d64a81f19",
       "bundledPath": "data/ingredients.json",
-      "bundledSha256": "984737ddd3cb3e3204b8a0440813e1f1acb8c1a870bb24aea492492dd114a0a8"
+      "bundledSha256": "dd449f8261637fdc859c4eb8381f5cad02437145fabcc75a4b48cb5d64a81f19"
     },
     "src/data/modules.js": {
-      "sha256": "62b6fd57cb1be66448b77ec6ecd2f63f6b766583b8a2f9b571d0ca623e466c43",
+      "sha256": "98f3ef0c0bd29111bd1fb4b0f2ccfdfd00bcc5c2707ff758813cd1aa6d41dfd4",
       "bundledPath": "scripts/lib/modules.mjs",
-      "bundledSha256": "62b6fd57cb1be66448b77ec6ecd2f63f6b766583b8a2f9b571d0ca623e466c43"
+      "bundledSha256": "98f3ef0c0bd29111bd1fb4b0f2ccfdfd00bcc5c2707ff758813cd1aa6d41dfd4"
     },
     "src/data/profile-options.js": {
       "sha256": "1ca680dade7fdfb5ff281afd77f4bb443da9fc9c1015ffeeb40a690da58c08db",
@@ -23,9 +24,19 @@
       "bundledSha256": "1ca680dade7fdfb5ff281afd77f4bb443da9fc9c1015ffeeb40a690da58c08db"
     },
     "src/lib/matching.js": {
-      "sha256": "d9679694c6766a6c5ac06a4260e0473f89f41174d5de608926f8cf4c08b92ec7",
+      "sha256": "542153d18ab5a1df36704bdc554a0b724cac1691ca10618bdcb1bf0debc24cf2",
       "bundledPath": "scripts/lib/matching.mjs",
-      "bundledSha256": "dc4de6bad0160cc394fac4622629bfb7275615222cb8af1739039fe93ca478f6"
+      "bundledSha256": "e9d5d58a641270b0d1176ec66491dfe15e43b34723eb4b48824c424e78747d8b"
+    },
+    "src/lib/names.js": {
+      "sha256": "3d55ca591e9ad682305509d76ef87e58303f3c94182ffcf6cd28626208963364",
+      "bundledPath": "scripts/lib/names.mjs",
+      "bundledSha256": "3d55ca591e9ad682305509d76ef87e58303f3c94182ffcf6cd28626208963364"
+    },
+    "src/lib/validation.js": {
+      "sha256": "61c011ead9950f5cb9038dca84452c839f4bf45a23501e8bd876602f16fdd86d",
+      "bundledPath": "scripts/lib/validation.mjs",
+      "bundledSha256": "b750231892fdcae661d828bbd0346814b0de4ee647239a860ba1110a88bcd1c0"
     }
   }
 }

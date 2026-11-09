@@ -2,13 +2,14 @@ import { useMemo, useRef, useState } from 'react';
 import ingredients from './data/ingredients.json';
 import { PROFILE_GROUPS, createEmptyProfile } from './data/profile-options.js';
 import { classifyIngredients, getDefaultSections, groupIngredients, hasProfileSelection } from './lib/matching.js';
+import { ingredientSearchText, normalizeName } from './lib/names.js';
+import { validateIngredients } from './lib/validation.js';
 import ProfileSidebar from './components/ProfileSidebar.jsx';
 import IngredientTable from './components/IngredientTable.jsx';
 import HomePage from './components/HomePage.jsx';
 
-const SEARCH_INDEX = new Map(ingredients.map(ingredient => [ingredient.id,
-  [ingredient.cn, ingredient.inci, ingredient.func, ...ingredient.best, ...ingredient.avoid, ingredient.synergy, ingredient.src].join(' ').toLocaleLowerCase(),
-]));
+validateIngredients(ingredients);
+const SEARCH_INDEX = new Map(ingredients.map(ingredient => [ingredient.id, ingredientSearchText(ingredient)]));
 
 function SearchIcon() {
   return <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="1.6" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" /><path d="m15.5 15.5 4.5 4.5" /></svg>;
@@ -21,7 +22,7 @@ export default function App() {
   const pagesRef = useRef(null);
   const guideRef = useRef(null);
   const isCustom = hasProfileSelection(profile);
-  const search = query.trim().toLocaleLowerCase();
+  const search = normalizeName(query.trim());
   const visibleIngredients = useMemo(() => search
     ? ingredients.filter(ingredient => SEARCH_INDEX.get(ingredient.id).includes(search))
     : ingredients, [search]);

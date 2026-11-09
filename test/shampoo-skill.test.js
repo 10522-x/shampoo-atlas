@@ -6,6 +6,7 @@ import { spawnSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 import { analyze, lookup } from '../skills/shampoo-advisor/scripts/analyze.mjs';
 import { getIngredientMatches } from '../src/lib/matching.js';
+import { ingredientSearchText, normalizeName } from '../src/lib/names.js';
 
 const load = relative => JSON.parse(readFileSync(new URL(relative, import.meta.url), 'utf8'));
 const records = load('../src/data/ingredients.json');
@@ -38,6 +39,76 @@ test('every original Chinese name, INCI, id and curated alias resolves without a
   assert.equal(lookup('Polyquaternium – 10').candidates[0].id, 'polyquaternium-10');
   assert.equal(lookup('1,2-己二醇').candidates[0].id, '1-2-hexanediol');
   assert.equal(lookup('辛基/辛酸基葡糖苷').candidates[0].id, 'caprylyl-capryl-glucoside');
+});
+
+test('reviewed botanical label forms and Chinese spelling variants resolve in both lookup and website search', () => {
+  const examples = [
+    ['Simmondsia Chinensis (Jojoba) Seed Oil', 'jojoba-oil'],
+    ['Simmondsia Chinensis Seed Oil', 'jojoba-oil'],
+    ['Rosmarinus Officinalis (Rosemary) Leaf Oil', 'rosemary-leaf-oil'],
+    ['Serenoa Serrulata Fruit Extract', 'saw-palmetto-extract'],
+    ['Centella Asiatica Extract', 'centella-asiatica-extract'],
+    ['互生叶白千层(MELALEUCA ALTERNIFOLIA)叶油', 'tea-tree-oil'],
+    ['积雪草（CENTELLA ASIATICA）提取物', 'centella-asiatica-extract'],
+    ['蓝桉(EUCALYPTUS GLOBULUS)叶油', 'eucalyptus-globulus-oil'],
+    ['白柳(SALIX ALBA)树皮提取物', 'salix-alba-bark-extract'],
+    ['辣薄荷(MENTHA PIPERITA)油', 'peppermint-oil'],
+    ['瓜儿胶羟丙基三甲基氯化铵', 'guar-hydroxypropyltrimonium-chloride'],
+  ];
+  for (const [name, id] of examples) {
+    const result = lookup(name);
+    assert.equal(result.status, 'matched', name);
+    assert.deepEqual(result.candidates.map(candidate => candidate.id), [id], name);
+    const record = records.find(item => item.id === id);
+    assert.ok(ingredientSearchText(record).includes(normalizeName(name)), `website alias search: ${name}`);
+  }
+});
+
+test('conflicting plant species, unknown silicone numbers and family abbreviations never become exact matches', () => {
+  const names = [
+    '蓝桉(MENTHA PIPERITA)叶油',
+    '互生叶白千层(CENTELLA ASIATICA)叶油',
+    '积雪草(ROSMARINUS OFFICINALIS)提取物',
+    'PEG/PPG-17/18 Dimethicone',
+    'PEG-999 Dimethicone',
+    'APG', 'DHA', 'PHA', 'Vitamin E',
+  ];
+  const product = single({ profile: { scalp: 'oily', hair: 'fine', states: ['sensitive'] }, ingredients: names });
+  assert.equal(product.summary.matched, 0);
+  for (const [position, name] of names.entries()) {
+    assert.notEqual(lookup(name).status, 'matched', name);
+    assert.equal(product.rows[position].id, undefined, name);
+    assert.equal(product.rows[position].signal, undefined, name);
+  }
+  assert.equal(lookup('Dimethicone Copolyol').candidates[0].id, 'dimethicone-copolyol');
+  assert.equal(lookup('PEG-12 Dimethicone').candidates[0].id, 'peg-12-dimethicone');
+});
+
+test('schema version 2 exports website review metadata without promoting it to a product verdict', () => {
+  assert.equal(manifest.schemaVersion, 2);
+  const result = analyze({
+    profile: { scalp: 'oily', hair: 'coarse', states: ['dandruff', 'sensitive'] },
+    ingredients: records.map(record => record.inci),
+  }, { full: true });
+  assert.equal(result.schemaVersion, 2);
+  assert.equal(result.products[0].summary.matched, records.length);
+  for (const [position, row] of result.products[0].rows.entries()) {
+    const source = records[position];
+    for (const field of ['refs', 'evidence', 'regulatory', 'isDrug', 'cautions', 'consumerMatch', 'typicalProduct']) {
+      assert.ok(Object.hasOwn(row, field), `${source.id}: missing ${field}`);
+      assert.deepEqual(row[field], source[field], `${source.id}: changed ${field}`);
+      assert.deepEqual(row.record[field], source[field], `${source.id}: full record changed ${field}`);
+    }
+  }
+  const byId = new Map(result.products[0].rows.map(row => [row.id, row]));
+  const drug = byId.get('ketoconazole');
+  assert.equal(drug.isDrug, true);
+  assert.equal(drug.consumerMatch, false);
+  assert.notEqual(drug.signal, 'support');
+  assert.ok(drug.regulatory.length > 0);
+  assert.ok(drug.cautions.length > 0);
+  assert.equal(byId.get('benzyl-alcohol').consumerMatch, false);
+  assert.notEqual(byId.get('benzyl-alcohol').signal, 'support');
 });
 
 test('all matched product rows preserve website classifications across representative profiles', () => {

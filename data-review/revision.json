@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 2,
+  "reviewedAt": "2026-11-09",
+  "recordCount": 152,
+  "rawSource": "ai_studio_code.txt",
+  "rawSourceSha256": "984737ddd3cb3e3204b8a0440813e1f1acb8c1a870bb24aea492492dd114a0a8",
+  "canonical": "src/data/ingredients.json",
+  "note": "本目录为本次迁移的审查记录，不是运行时第二份分组或匹配配置；后续维护规范数据库。"
+}

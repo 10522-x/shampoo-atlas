@@ -4,34 +4,24 @@ import { pathToFileURL } from 'node:url';
 import { getIngredientMatches, hasProfileSelection, normalizeProfile } from './lib/matching.mjs';
 import { getIngredientModule } from './lib/modules.mjs';
 import { PROFILE_GROUPS } from './lib/profile-options.mjs';
+import { normalizeName, ingredientNames } from './lib/names.mjs';
+import { validateIngredients } from './lib/validation.mjs';
+export { normalizeName } from './lib/names.mjs';
 
 const readData = name => JSON.parse(readFileSync(new URL(`../data/${name}`, import.meta.url), 'utf8'));
 const records = readData('ingredients.json');
 const aliases = readData('aliases.json');
 const manifest = readData('manifest.json');
+validateIngredients(records);
 const byId = new Map(records.map(record => [record.id, record]));
 const index = new Map();
-
-// 保留数字、逗号与斜杠，防止把不同聚合物编号或不同化学名合并。
-export function normalizeName(value) {
-  return value.normalize('NFKC').toLowerCase().replace(/[\s\u200b\uFEFF\-‐‑‒–—﹣－]/gu, '');
-}
-
-function variants(record) {
-  const result = new Set([record.id, record.cn, record.inci, ...(aliases[record.id] ?? [])]);
-  for (const value of [record.cn, record.inci]) {
-    // 只去掉末尾说明；内部括号可能是化学结构，必须保留。
-    result.add(value.replace(/\s*(?:\([^()]*\)|（[^（）]*）)\s*$/u, '').trim());
-    for (const match of value.matchAll(/\(([A-Z][A-Z0-9-]{1,11})\)/g)) result.add(match[1]);
-  }
-  return [...result].filter(Boolean);
-}
 
 for (const id of Object.keys(aliases)) {
   if (!byId.has(id)) throw new Error(`Alias references unknown ingredient: ${id}`);
 }
 for (const record of records) {
-  for (const name of variants(record)) {
+  if (JSON.stringify(aliases[record.id] || []) !== JSON.stringify(record.aliases)) throw new Error(`Alias snapshot out of sync: ${record.id}`);
+  for (const name of ingredientNames(record)) {
     const key = normalizeName(name);
     if (!index.has(key)) index.set(key, new Set());
     index.get(key).add(record.id);
@@ -149,7 +139,9 @@ function evidenceRow(item, position, profile, avoidNames, full) {
   return {
     ...row, status: 'matched', id: record.id, cn: record.cn, inci: record.inci,
     module: { id: module.id, name: module.name }, signal, explicitAvoid, matchedTags,
-    func: record.func, synergy: record.synergy, src: record.src, sourceGrade: record.grade,
+    func: record.func, synergy: record.synergy, src: record.src,
+    refs: record.refs, evidence: record.evidence, cautions: record.cautions,
+    regulatory: record.regulatory, isDrug: record.isDrug, consumerMatch: record.consumerMatch, typicalProduct: record.typicalProduct,
     ...(full ? { record } : {}),
   };
 }
@@ -201,7 +193,7 @@ export function analyze(input, { full = false } = {}) {
     products = [{ ingredients: input.ingredients, ...(input.name === undefined ? {} : { name: input.name }), ...(input.label === undefined ? {} : { label: input.label }) }];
   }
   return {
-    schemaVersion: 1,
+    schemaVersion: 2,
     database: { recordCount: records.length, sha256: manifest.databaseSha256, version: manifest.version },
     profile,
     products: products.map(product => analyzeProduct(product, profile, avoidNames, full)),

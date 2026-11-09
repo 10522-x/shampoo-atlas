@@ -11,9 +11,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host 127.0.0.1",
-    "build": "vite build",
+    "build": "node scripts/validate-data.mjs && vite build",
     "preview": "vite preview --host 127.0.0.1",
     "test": "node --test test/*.test.js",
+    "validate:data": "node scripts/validate-data.mjs",
     "skill:sync": "node scripts/build-shampoo-skill.mjs",
     "skill:benchmark": "node scripts/benchmark-shampoo-skill.mjs"
   },

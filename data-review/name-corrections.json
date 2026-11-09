@@ -1,0 +1,623 @@
+{
+  "sodium-laureth-sulfate": {
+    "inci": "Sodium Laureth Sulfate",
+    "refs": [
+      {
+        "title": "Commission Implementing Decision (EU) 2025/1175, Annex: common ingredient names",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025D1175",
+        "verified": true,
+        "scope": "名称词汇表条目 26714：Sodium Laureth Sulfate；仅核对名称，不代表允许使用、用途或功效。"
+      }
+    ],
+    "abbr": [
+      "SLES"
+    ],
+    "aliases": [
+      "Sodium Laureth Sulfate (SLES)"
+    ]
+  },
+  "sodium-lauryl-sulfate": {
+    "inci": "Sodium Lauryl Sulfate",
+    "refs": [
+      {
+        "title": "Commission Implementing Decision (EU) 2025/1175, Annex: common ingredient names",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025D1175",
+        "verified": true,
+        "scope": "名称词汇表条目 26768：Sodium Lauryl Sulfate；仅核对名称，不代表允许使用、用途或功效。"
+      }
+    ],
+    "abbr": [
+      "SLS"
+    ],
+    "aliases": [
+      "Sodium Lauryl Sulfate (SLS)",
+      "月桂醇硫酸酯钠",
+      "月桂醇硫酸钠"
+    ]
+  },
+  "ammonium-laureth-sulfate": {
+    "inci": "Ammonium Laureth Sulfate",
+    "refs": [
+      {
+        "title": "Commission Implementing Decision (EU) 2025/1175, Annex: common ingredient names",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025D1175",
+        "verified": true,
+        "scope": "名称词汇表条目 1795：Ammonium Laureth Sulfate；仅核对名称，不代表允许使用、用途或功效。"
+      }
+    ],
+    "abbr": [
+      "ALES"
+    ],
+    "aliases": [
+      "Ammonium Laureth Sulfate (ALES)"
+    ]
+  },
+  "ammonium-lauryl-sulfate": {
+    "inci": "Ammonium Lauryl Sulfate",
+    "refs": [
+      {
+        "title": "Commission Implementing Decision (EU) 2025/1175, Annex: common ingredient names",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025D1175",
+        "verified": true,
+        "scope": "名称词汇表条目 1803：Ammonium Lauryl Sulfate；仅核对名称，不代表允许使用、用途或功效。"
+      }
+    ],
+    "abbr": [
+      "ALS"
+    ],
+    "aliases": [
+      "Ammonium Lauryl Sulfate (ALS)",
+      "月桂醇硫酸酯铵",
+      "月桂醇硫酸铵"
+    ]
+  },
+  "cocamidopropyl-betaine": {
+    "inci": "Cocamidopropyl Betaine",
+    "refs": [
+      {
+        "title": "Commission Implementing Decision (EU) 2025/1175, Annex: common ingredient names",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025D1175",
+        "verified": true,
+        "scope": "名称词汇表条目 7071：Cocamidopropyl Betaine；仅核对名称，不代表允许使用、用途或功效。"
+      }
+    ],
+    "abbr": [
+      "CAPB"
+    ],
+    "aliases": [
+      "Cocamidopropyl Betaine (CAPB)"
+    ]
+  },
+  "sodium-cocoyl-isethionate": {
+    "inci": "Sodium Cocoyl Isethionate",
+    "refs": [
+      {
+        "title": "Commission Implementing Decision (EU) 2025/1175, Annex: common ingredient names",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025D1175",
+        "verified": true,
+        "scope": "名称词汇表条目 26538：Sodium Cocoyl Isethionate；仅核对名称，不代表允许使用、用途或功效。"
+      }
+    ],
+    "abbr": [
+      "SCI"
+    ],
+    "aliases": [
+      "Sodium Cocoyl Isethionate (SCI)",
+      "椰油酰羟乙磺酸钠"
+    ]
+  },
+  "sodium-lauroyl-methyl-isethionate": {
+    "inci": "Sodium Lauroyl Methyl Isethionate",
+    "refs": [
+      {
+        "title": "Commission Implementing Decision (EU) 2025/1175, Annex: common ingredient names",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025D1175",
+        "verified": true,
+        "scope": "名称词汇表条目 26751：Sodium Lauroyl Methyl Isethionate；仅核对名称，不代表允许使用、用途或功效。"
+      }
+    ],
+    "abbr": [
+      "SLMI"
+    ],
+    "aliases": [
+      "Sodium Lauroyl Methyl Isethionate (SLMI)",
+      "月桂酰甲基羟乙磺酸钠"
+    ]
+  },
+  "lauramidopropyl-betaine": {
+    "inci": "Lauramidopropyl Betaine",
+    "refs": [
+      {
+        "title": "Commission Implementing Decision (EU) 2025/1175, Annex: common ingredient names",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025D1175",
+        "verified": true,
+        "scope": "名称词汇表条目 14913：Lauramidopropyl Betaine；仅核对名称，不代表允许使用、用途或功效。"
+      }
+    ],
+    "abbr": [
+      "LAPB"
+    ],
+    "aliases": [
+      "Lauramidopropyl Betaine (LAPB)"
+    ]
+  },
+  "decyl-glucoside": {
+    "cn": "癸基葡糖苷",
+    "aliases": [
+      "癸基葡糖苷 (APG)"
+    ]
+  },
+  "sodium-methyl-cocoyl-taurate": {
+    "inci": "Sodium Methyl Cocoyl Taurate",
+    "refs": [
+      {
+        "title": "Commission Implementing Decision (EU) 2025/1175, Annex: common ingredient names",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025D1175",
+        "verified": true,
+        "scope": "名称词汇表条目 26803：Sodium Methyl Cocoyl Taurate；仅核对名称，不代表允许使用、用途或功效。"
+      }
+    ],
+    "abbr": [
+      "SMCT"
+    ],
+    "aliases": [
+      "Sodium Methyl Cocoyl Taurate (SMCT)"
+    ]
+  },
+  "cyclopentasiloxane": {
+    "inci": "Cyclopentasiloxane",
+    "refs": [
+      {
+        "title": "Commission Implementing Decision (EU) 2025/1175, Annex: common ingredient names",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025D1175",
+        "verified": true,
+        "scope": "名称词汇表条目 7871：Cyclopentasiloxane；仅核对名称，不代表允许使用、用途或功效。"
+      }
+    ],
+    "abbr": [
+      "D5"
+    ],
+    "aliases": [
+      "Cyclopentasiloxane (D5)"
+    ]
+  },
+  "cyclohexasiloxane": {
+    "inci": "Cyclohexasiloxane",
+    "refs": [
+      {
+        "title": "Commission Implementing Decision (EU) 2025/1175, Annex: common ingredient names",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025D1175",
+        "verified": true,
+        "scope": "名称词汇表条目 7853：Cyclohexasiloxane；仅核对名称，不代表允许使用、用途或功效。"
+      }
+    ],
+    "abbr": [
+      "D6"
+    ],
+    "aliases": [
+      "Cyclohexasiloxane (D6)"
+    ]
+  },
+  "polyquaternium-10": {
+    "cn": "聚季铵盐-10",
+    "aliases": [
+      "聚季铵盐-10 (阳离子纤维素)"
+    ]
+  },
+  "guar-hydroxypropyltrimonium-chloride": {
+    "aliases": [
+      "瓜儿胶羟丙基三甲基氯化铵"
+    ]
+  },
+  "behentrimonium-methosulfate": {
+    "inci": "Behentrimonium Methosulfate",
+    "refs": [
+      {
+        "title": "Commission Implementing Decision (EU) 2025/1175, Annex: common ingredient names",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025D1175",
+        "verified": true,
+        "scope": "名称词汇表条目 3162：Behentrimonium Methosulfate；仅核对名称，不代表允许使用、用途或功效。"
+      }
+    ],
+    "abbr": [
+      "BTMS"
+    ],
+    "aliases": [
+      "Behentrimonium Methosulfate (BTMS)"
+    ]
+  },
+  "panthenol": {
+    "inci": "Panthenol",
+    "refs": [
+      {
+        "title": "Commission Implementing Decision (EU) 2025/1175, Annex: common ingredient names",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025D1175",
+        "verified": true,
+        "scope": "名称词汇表条目 19012：Panthenol；仅核对名称，不代表允许使用、用途或功效。"
+      }
+    ],
+    "aliases": [
+      "Panthenol (Pro-Vitamin B5)",
+      "D-泛醇"
+    ]
+  },
+  "salicylic-acid": {
+    "cn": "水杨酸",
+    "aliases": [
+      "水杨酸 (BHA)"
+    ]
+  },
+  "piroctone-olamine": {
+    "inci": "Piroctone Olamine",
+    "refs": [
+      {
+        "title": "Commission Implementing Decision (EU) 2025/1175, Annex: common ingredient names",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025D1175",
+        "verified": true,
+        "scope": "名称词汇表条目 21249：Piroctone Olamine；仅核对名称，不代表允许使用、用途或功效。"
+      }
+    ],
+    "abbr": [
+      "OCT"
+    ],
+    "aliases": [
+      "Piroctone Olamine (OCT)",
+      "吡罗克酮乙醇胺",
+      "Octopirox"
+    ]
+  },
+  "zinc-pyrithione": {
+    "inci": "Zinc Pyrithione",
+    "refs": [
+      {
+        "title": "Commission Implementing Decision (EU) 2025/1175, Annex: common ingredient names",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025D1175",
+        "verified": true,
+        "scope": "名称词汇表条目 30346：Zinc Pyrithione；仅核对名称，不代表允许使用、用途或功效。"
+      }
+    ],
+    "abbr": [
+      "ZPT"
+    ],
+    "aliases": [
+      "Zinc Pyrithione (ZPT)"
+    ]
+  },
+  "tea-tree-oil": {
+    "inci": "Melaleuca Alternifolia Leaf Oil",
+    "refs": [
+      {
+        "title": "Commission Implementing Decision (EU) 2025/1175, Annex: common ingredient names",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025D1175",
+        "verified": true,
+        "scope": "名称词汇表条目 16116：Melaleuca Alternifolia Leaf Oil；仅核对名称，不代表允许使用、用途或功效。"
+      }
+    ],
+    "aliases": [
+      "Melaleuca Alternifolia (Tea Tree) Oil",
+      "Melaleuca Alternifolia (Tea Tree) Leaf Oil",
+      "互生叶白千层叶油",
+      "互生叶白千层(MELALEUCA ALTERNIFOLIA)叶油",
+      "互生叶白千层（MELALEUCA ALTERNIFOLIA）叶油"
+    ]
+  },
+  "peppermint-oil": {
+    "inci": "Mentha Piperita Oil",
+    "refs": [
+      {
+        "title": "Commission Implementing Decision (EU) 2025/1175, Annex: common ingredient names",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025D1175",
+        "verified": true,
+        "scope": "名称词汇表条目 16219：Mentha Piperita Oil；仅核对名称，不代表允许使用、用途或功效。"
+      }
+    ],
+    "aliases": [
+      "Peppermint (Mentha Piperita) Oil",
+      "Mentha Piperita (Peppermint) Oil",
+      "辣薄荷(MENTHA PIPERITA)油",
+      "辣薄荷（MENTHA PIPERITA）油"
+    ]
+  },
+  "niacinamide": {
+    "cn": "烟酰胺",
+    "aliases": [
+      "烟酰胺 (维生素 B3)"
+    ]
+  },
+  "copper-tripeptide-1": {
+    "inci": "Copper Tripeptide-1",
+    "refs": [
+      {
+        "title": "Commission Implementing Decision (EU) 2025/1175, Annex: common ingredient names",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025D1175",
+        "verified": true,
+        "scope": "名称词汇表条目 7399：Copper Tripeptide-1；仅核对名称，不代表允许使用、用途或功效。"
+      }
+    ],
+    "cn": "蓝铜胜肽",
+    "abbr": [
+      "GHK-Cu"
+    ],
+    "aliases": [
+      "蓝铜胜肽 (三肽-1 铜)",
+      "Copper Tripeptide-1 (GHK-Cu)"
+    ]
+  },
+  "biotin": {
+    "cn": "生物素",
+    "aliases": [
+      "生物素 (维生素 H / B7)"
+    ]
+  },
+  "centella-asiatica-extract": {
+    "inci": "Centella Asiatica Extract",
+    "refs": [
+      {
+        "title": "Commission Implementing Decision (EU) 2025/1175, Annex: common ingredient names",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025D1175",
+        "verified": true,
+        "scope": "名称词汇表条目 5725：Centella Asiatica Extract；仅核对名称，不代表允许使用、用途或功效。"
+      }
+    ],
+    "aliases": [
+      "Centella Asiatica (Cica) Extract",
+      "积雪草(CENTELLA ASIATICA)提取物",
+      "积雪草（CENTELLA ASIATICA）提取物"
+    ]
+  },
+  "rosemary-leaf-oil": {
+    "aliases": [
+      "迷迭香(ROSMARINUS OFFICINALIS)叶油",
+      "Rosmarinus Officinalis (Rosemary) Leaf Oil",
+      "迷迭香（ROSMARINUS OFFICINALIS）叶油"
+    ]
+  },
+  "saw-palmetto-extract": {
+    "inci": "Serenoa Serrulata Fruit Extract",
+    "refs": [
+      {
+        "title": "Commission Implementing Decision (EU) 2025/1175, Annex: common ingredient names",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025D1175",
+        "verified": true,
+        "scope": "名称词汇表条目 25611：Serenoa Serrulata Fruit Extract；仅核对名称，不代表允许使用、用途或功效。"
+      }
+    ],
+    "aliases": [
+      "Saw Palmetto Fruit Extract",
+      "锯叶棕(SERENOA SERRULATA)果提取物",
+      "锯叶棕（SERENOA SERRULATA）果提取物"
+    ]
+  },
+  "glycolic-acid": {
+    "cn": "甘醇酸",
+    "aliases": [
+      "甘醇酸 (AHA 果酸)"
+    ]
+  },
+  "salix-alba-bark-extract": {
+    "inci": "Salix Alba Bark Extract",
+    "refs": [
+      {
+        "title": "Commission Implementing Decision (EU) 2025/1175, Annex: common ingredient names",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025D1175",
+        "verified": true,
+        "scope": "名称词汇表条目 25098：Salix Alba Bark Extract；仅核对名称，不代表允许使用、用途或功效。"
+      }
+    ],
+    "aliases": [
+      "Salix Alba (Willow) Bark Extract",
+      "白柳(SALIX ALBA)树皮提取物",
+      "白柳（SALIX ALBA）树皮提取物"
+    ]
+  },
+  "eucalyptus-globulus-oil": {
+    "aliases": [
+      "Eucalyptus Globulus (Eucalyptus) Leaf Oil",
+      "蓝桉叶油",
+      "蓝桉(EUCALYPTUS GLOBULUS)叶油",
+      "蓝桉（EUCALYPTUS GLOBULUS）叶油"
+    ]
+  },
+  "methylchloroisothiazolinone": {
+    "inci": "Methylchloroisothiazolinone",
+    "refs": [
+      {
+        "title": "Commission Implementing Decision (EU) 2025/1175, Annex: common ingredient names",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025D1175",
+        "verified": true,
+        "scope": "名称词汇表条目 16610：Methylchloroisothiazolinone；仅核对名称，不代表允许使用、用途或功效。"
+      }
+    ],
+    "abbr": [
+      "CMIT",
+      "MCI"
+    ],
+    "aliases": [
+      "Methylchloroisothiazolinone (CMIT)",
+      "MCI"
+    ]
+  },
+  "methylisothiazolinone": {
+    "inci": "Methylisothiazolinone",
+    "refs": [
+      {
+        "title": "Commission Implementing Decision (EU) 2025/1175, Annex: common ingredient names",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025D1175",
+        "verified": true,
+        "scope": "名称词汇表条目 16644：Methylisothiazolinone；仅核对名称，不代表允许使用、用途或功效。"
+      }
+    ],
+    "abbr": [
+      "MIT",
+      "MI"
+    ],
+    "aliases": [
+      "Methylisothiazolinone (MIT)",
+      "MI"
+    ]
+  },
+  "dehydroacetic-acid": {
+    "inci": "Dehydroacetic Acid",
+    "refs": [
+      {
+        "title": "Commission Implementing Decision (EU) 2025/1175, Annex: common ingredient names",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025D1175",
+        "verified": true,
+        "scope": "名称词汇表条目 8294：Dehydroacetic Acid；仅核对名称，不代表允许使用、用途或功效。"
+      }
+    ],
+    "aliases": [
+      "Dehydroacetic Acid (DHA)"
+    ]
+  },
+  "tocopherol": {
+    "inci": "Tocopherol",
+    "refs": [
+      {
+        "title": "Commission Implementing Decision (EU) 2025/1175, Annex: common ingredient names",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025D1175",
+        "verified": true,
+        "scope": "名称词汇表条目 28929：Tocopherol；仅核对名称，不代表允许使用、用途或功效。"
+      }
+    ],
+    "aliases": [
+      "Tocopherol (Vitamin E)"
+    ]
+  },
+  "bht": {
+    "inci": "BHT",
+    "refs": [
+      {
+        "title": "Commission Implementing Decision (EU) 2025/1175, Annex: common ingredient names",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025D1175",
+        "verified": true,
+        "scope": "名称词汇表条目 3371：BHT；仅核对名称，不代表允许使用、用途或功效。"
+      }
+    ],
+    "aliases": [
+      "BHT (Butylated Hydroxytoluene)"
+    ]
+  },
+  "ascorbic-acid": {
+    "inci": "Ascorbic Acid",
+    "refs": [
+      {
+        "title": "Commission Implementing Decision (EU) 2025/1175, Annex: common ingredient names",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025D1175",
+        "verified": true,
+        "scope": "名称词汇表条目 2414：Ascorbic Acid；仅核对名称，不代表允许使用、用途或功效。"
+      }
+    ],
+    "aliases": [
+      "Ascorbic Acid (Vitamin C)"
+    ]
+  },
+  "gluconolactone": {
+    "inci": "Gluconolactone",
+    "refs": [
+      {
+        "title": "Commission Implementing Decision (EU) 2025/1175, Annex: common ingredient names",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025D1175",
+        "verified": true,
+        "scope": "名称词汇表条目 11012：Gluconolactone；仅核对名称，不代表允许使用、用途或功效。"
+      }
+    ],
+    "aliases": [
+      "Gluconolactone (PHA)"
+    ]
+  },
+  "sodium-hydroxide": {
+    "cn": "氢氧化钠",
+    "aliases": [
+      "氢氧化钠 (烧碱中和剂)"
+    ]
+  },
+  "sodium-chloride": {
+    "cn": "氯化钠",
+    "aliases": [
+      "氯化钠 (普通食盐)"
+    ]
+  },
+  "glycerin": {
+    "cn": "甘油",
+    "aliases": [
+      "甘油 (丙三醇)",
+      "丙三醇"
+    ]
+  },
+  "carbomer": {
+    "cn": "卡波姆",
+    "aliases": [
+      "卡波姆 (交联聚丙烯酸树脂)"
+    ]
+  },
+  "hydroxyethylcellulose": {
+    "inci": "Hydroxyethylcellulose",
+    "refs": [
+      {
+        "title": "Commission Implementing Decision (EU) 2025/1175, Annex: common ingredient names",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025D1175",
+        "verified": true,
+        "scope": "名称词汇表条目 13278：Hydroxyethylcellulose；仅核对名称，不代表允许使用、用途或功效。"
+      }
+    ],
+    "abbr": [
+      "HEC"
+    ],
+    "aliases": [
+      "Hydroxyethylcellulose (HEC)"
+    ]
+  },
+  "argan-oil": {
+    "inci": "Argania Spinosa Kernel Oil",
+    "refs": [
+      {
+        "title": "Commission Implementing Decision (EU) 2025/1175, Annex: common ingredient names",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025D1175",
+        "verified": true,
+        "scope": "名称词汇表条目 2221：Argania Spinosa Kernel Oil；仅核对名称，不代表允许使用、用途或功效。"
+      }
+    ],
+    "cn": "刺阿干树仁油",
+    "aliases": [
+      "刺阿干树仁油 (摩洛哥坚果油)",
+      "Argania Spinosa (Argan) Oil",
+      "刺阿干树(ARGANIA SPINOSA)仁油",
+      "Argania Spinosa (Argan) Kernel Oil",
+      "刺阿干树（ARGANIA SPINOSA）仁油"
+    ]
+  },
+  "jojoba-oil": {
+    "inci": "Simmondsia Chinensis Seed Oil",
+    "refs": [
+      {
+        "title": "Commission Implementing Decision (EU) 2025/1175, Annex: common ingredient names",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025D1175",
+        "verified": true,
+        "scope": "名称词汇表条目 26176：Simmondsia Chinensis Seed Oil；仅核对名称，不代表允许使用、用途或功效。"
+      }
+    ],
+    "aliases": [
+      "Simmondsia Chinensis (Jojoba) Oil",
+      "霍霍巴(SIMMONDSIA CHINENSIS)籽油",
+      "Simmondsia Chinensis (Jojoba) Seed Oil",
+      "霍霍巴（SIMMONDSIA CHINENSIS）籽油"
+    ]
+  },
+  "coconut-oil": {
+    "inci": "Cocos Nucifera Oil",
+    "refs": [
+      {
+        "title": "Commission Implementing Decision (EU) 2025/1175, Annex: common ingredient names",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025D1175",
+        "verified": true,
+        "scope": "名称词汇表条目 7174：Cocos Nucifera Oil；仅核对名称，不代表允许使用、用途或功效。"
+      }
+    ],
+    "aliases": [
+      "Cocos Nucifera (Coconut) Oil",
+      "椰子(COCOS NUCIFERA)油",
+      "椰子（COCOS NUCIFERA）油"
+    ]
+  }
+}

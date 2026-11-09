@@ -43,6 +43,7 @@ npm run dev
 | --- | --- |
 | `npm run dev` | 启动开发服务器 |
 | `npm test` | 验证成分数据、匹配规则及 skill 一致性 |
+| `npm run validate:data` | 检查字段、模块、别名与 skill 快照哈希 |
 | `npm run build` | 生成生产文件到 `dist/` |
 | `npm run preview` | 在本地预览生产构建，默认端口 4173 |
 | `npm run skill:sync` | 从网站数据和规则同步 skill 快照 |
@@ -87,14 +88,16 @@ netlify.toml        Netlify 构建设置
 
 ## 数据与匹配方式
 
-数据源为 [ai_studio_code.txt](ai_studio_code.txt)，[src/data/ingredients.json](src/data/ingredients.json) 保留其 152 条单成分记录。模块内顺序为编辑整理，未宣称依据市场频次统计。
+原始导入快照保留在 [ai_studio_code.txt](ai_studio_code.txt)。当前规范库为 [src/data/ingredients.json](src/data/ingredients.json)，保留 152 个成分身份并修订资料内容；模块、组内顺序和别名均在该文件维护。当前数据结构版本为 schema 2，版本及原始快照哈希记录在 [revision.json](data-review/revision.json)。模块内顺序为编辑整理，未宣称依据市场频次统计。核实记录与尚未解决的边界见 [本次数据审查](docs/data-review.md)。
 
-当前匹配依据原始 `best` / `avoid` 人群标签：
+当前匹配依据人工审校的 `suitableFor` / `avoidFor` 受控条件，不解析自由文案：
 
-- 同一个标签中的多个明确条件需要同时满足。
+- 同一个条件组中的头皮、发质及状态需要同时满足。
 - 推荐与避开冲突时，优先归入避开。
 - 未命中、中性或信息不足的成分不强制归入两张定制表；结果允许为空。
-- `func` / `synergy` 原文继续展示，目前不参与匹配计算。
+- 配方辅助成分不按发质正向推荐；药用、法规受限或证据不足的部分成分也不自动推荐。
+- 过敏史、配方条件与地区法规分别保存在 `cautions`、`synergy`、`regulatory` 中，不推断为用户属性。
+- `refs` 标注逐项出处与核实范围；未定位的原始出处显示待核实，不再沿用无依据的 A/B 功效等级。
 
 这是单成分资料与人群标签的匹配工具，不是洗发水产品评分器。完整配方的多成分作用、浓度、pH 与个人过敏史等尚未纳入；原始文献也尚未逐条核验。用户选择保存在当前页面内存中，无需注册或提交到后端。
 

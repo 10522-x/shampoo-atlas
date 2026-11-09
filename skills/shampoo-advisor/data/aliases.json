@@ -1,29 +1,206 @@
 {
-  "sodium-lauryl-sulfate": ["月桂醇硫酸酯钠", "月桂醇硫酸钠"],
-  "ammonium-lauryl-sulfate": ["月桂醇硫酸酯铵", "月桂醇硫酸铵"],
-  "cocamidopropyl-betaine": ["椰油酰胺丙基甜菜碱"],
-  "sodium-cocoyl-isethionate": ["椰油酰羟乙磺酸钠"],
-  "sodium-lauroyl-methyl-isethionate": ["月桂酰甲基羟乙磺酸钠"],
-  "sodium-methyl-cocoyl-taurate": ["甲基椰油酰基牛磺酸钠"],
-  "coco-betaine": ["椰油甜菜碱"],
-  "sodium-cocoamphoacetate": ["椰油酰两性基乙酸钠"],
-  "disodium-cocoamphodiacetate": ["椰油酰两性基二乙酸二钠"],
-  "cetrimonium-chloride": ["鲸蜡基三甲基氯化铵"],
-  "piroctone-olamine": ["吡罗克酮乙醇胺", "吡罗克酮乙醇胺盐", "Octopirox"],
-  "climbazole": ["氯咪巴唑"],
-  "menthol": ["薄荷醇"],
-  "peppermint-oil": ["Mentha Piperita Oil", "Mentha Piperita (Peppermint) Oil"],
-  "tea-tree-oil": ["Melaleuca Alternifolia Leaf Oil", "Melaleuca Alternifolia (Tea Tree) Leaf Oil", "互生叶白千层叶油"],
-  "rosemary-leaf-oil": ["迷迭香(ROSMARINUS OFFICINALIS)叶油"],
-  "argan-oil": ["Argania Spinosa Kernel Oil", "刺阿干树(ARGANIA SPINOSA)仁油"],
-  "jojoba-oil": ["Simmondsia Chinensis Seed Oil", "霍霍巴(SIMMONDSIA CHINENSIS)籽油"],
-  "coconut-oil": ["Cocos Nucifera Oil", "椰子(COCOS NUCIFERA)油"],
-  "disodium-edta": ["EDTA二钠", "EDTA-2Na"],
-  "tetrasodium-edta": ["EDTA四钠", "EDTA-4Na"],
-  "methylisothiazolinone": ["MI"],
-  "methylchloroisothiazolinone": ["MCI"],
-  "panthenol": ["D-泛醇"],
-  "glycerin": ["丙三醇"],
-  "butylene-glycol": ["丁二醇"],
-  "diazolidinyl-urea": ["双(羟甲基)咪唑烷基脲"]
+  "sodium-laureth-sulfate": [
+    "Sodium Laureth Sulfate (SLES)"
+  ],
+  "sodium-lauryl-sulfate": [
+    "月桂醇硫酸酯钠",
+    "月桂醇硫酸钠",
+    "Sodium Lauryl Sulfate (SLS)"
+  ],
+  "ammonium-laureth-sulfate": [
+    "Ammonium Laureth Sulfate (ALES)"
+  ],
+  "ammonium-lauryl-sulfate": [
+    "月桂醇硫酸酯铵",
+    "月桂醇硫酸铵",
+    "Ammonium Lauryl Sulfate (ALS)"
+  ],
+  "cocamidopropyl-betaine": [
+    "Cocamidopropyl Betaine (CAPB)"
+  ],
+  "sodium-cocoyl-isethionate": [
+    "椰油酰羟乙磺酸钠",
+    "Sodium Cocoyl Isethionate (SCI)"
+  ],
+  "sodium-lauroyl-methyl-isethionate": [
+    "月桂酰甲基羟乙磺酸钠",
+    "Sodium Lauroyl Methyl Isethionate (SLMI)"
+  ],
+  "coco-betaine": [
+    "椰油甜菜碱"
+  ],
+  "lauramidopropyl-betaine": [
+    "Lauramidopropyl Betaine (LAPB)"
+  ],
+  "decyl-glucoside": [
+    "癸基葡糖苷 (APG)"
+  ],
+  "sodium-methyl-cocoyl-taurate": [
+    "Sodium Methyl Cocoyl Taurate (SMCT)"
+  ],
+  "disodium-cocoamphodiacetate": [
+    "椰油酰两性基二乙酸二钠"
+  ],
+  "sodium-cocoamphoacetate": [
+    "椰油酰两性基乙酸钠"
+  ],
+  "cyclopentasiloxane": [
+    "Cyclopentasiloxane (D5)"
+  ],
+  "cyclohexasiloxane": [
+    "Cyclohexasiloxane (D6)"
+  ],
+  "polyquaternium-10": [
+    "聚季铵盐-10 (阳离子纤维素)"
+  ],
+  "guar-hydroxypropyltrimonium-chloride": [
+    "瓜儿胶羟丙基三甲基氯化铵"
+  ],
+  "cetrimonium-chloride": [
+    "鲸蜡基三甲基氯化铵"
+  ],
+  "behentrimonium-methosulfate": [
+    "Behentrimonium Methosulfate (BTMS)"
+  ],
+  "panthenol": [
+    "D-泛醇",
+    "Panthenol (Pro-Vitamin B5)"
+  ],
+  "salicylic-acid": [
+    "水杨酸 (BHA)"
+  ],
+  "piroctone-olamine": [
+    "吡罗克酮乙醇胺",
+    "Octopirox",
+    "Piroctone Olamine (OCT)"
+  ],
+  "zinc-pyrithione": [
+    "Zinc Pyrithione (ZPT)"
+  ],
+  "climbazole": [
+    "氯咪巴唑"
+  ],
+  "tea-tree-oil": [
+    "Melaleuca Alternifolia (Tea Tree) Leaf Oil",
+    "互生叶白千层叶油",
+    "Melaleuca Alternifolia (Tea Tree) Oil",
+    "互生叶白千层(MELALEUCA ALTERNIFOLIA)叶油",
+    "互生叶白千层（MELALEUCA ALTERNIFOLIA）叶油"
+  ],
+  "menthol": [
+    "薄荷醇"
+  ],
+  "peppermint-oil": [
+    "Mentha Piperita (Peppermint) Oil",
+    "Peppermint (Mentha Piperita) Oil",
+    "辣薄荷(MENTHA PIPERITA)油",
+    "辣薄荷（MENTHA PIPERITA）油"
+  ],
+  "niacinamide": [
+    "烟酰胺 (维生素 B3)"
+  ],
+  "copper-tripeptide-1": [
+    "蓝铜胜肽 (三肽-1 铜)",
+    "Copper Tripeptide-1 (GHK-Cu)"
+  ],
+  "biotin": [
+    "生物素 (维生素 H / B7)"
+  ],
+  "centella-asiatica-extract": [
+    "Centella Asiatica (Cica) Extract",
+    "积雪草(CENTELLA ASIATICA)提取物",
+    "积雪草（CENTELLA ASIATICA）提取物"
+  ],
+  "rosemary-leaf-oil": [
+    "迷迭香(ROSMARINUS OFFICINALIS)叶油",
+    "Rosmarinus Officinalis (Rosemary) Leaf Oil",
+    "迷迭香（ROSMARINUS OFFICINALIS）叶油"
+  ],
+  "saw-palmetto-extract": [
+    "Saw Palmetto Fruit Extract",
+    "锯叶棕(SERENOA SERRULATA)果提取物",
+    "锯叶棕（SERENOA SERRULATA）果提取物"
+  ],
+  "glycolic-acid": [
+    "甘醇酸 (AHA 果酸)"
+  ],
+  "salix-alba-bark-extract": [
+    "Salix Alba (Willow) Bark Extract",
+    "白柳(SALIX ALBA)树皮提取物",
+    "白柳（SALIX ALBA）树皮提取物"
+  ],
+  "eucalyptus-globulus-oil": [
+    "Eucalyptus Globulus (Eucalyptus) Leaf Oil",
+    "蓝桉叶油",
+    "蓝桉(EUCALYPTUS GLOBULUS)叶油",
+    "蓝桉（EUCALYPTUS GLOBULUS）叶油"
+  ],
+  "methylchloroisothiazolinone": [
+    "MCI",
+    "Methylchloroisothiazolinone (CMIT)"
+  ],
+  "methylisothiazolinone": [
+    "MI",
+    "Methylisothiazolinone (MIT)"
+  ],
+  "dehydroacetic-acid": [
+    "Dehydroacetic Acid (DHA)"
+  ],
+  "disodium-edta": [
+    "EDTA二钠",
+    "EDTA-2Na"
+  ],
+  "tetrasodium-edta": [
+    "EDTA四钠",
+    "EDTA-4Na"
+  ],
+  "tocopherol": [
+    "Tocopherol (Vitamin E)"
+  ],
+  "bht": [
+    "BHT (Butylated Hydroxytoluene)"
+  ],
+  "ascorbic-acid": [
+    "Ascorbic Acid (Vitamin C)"
+  ],
+  "gluconolactone": [
+    "Gluconolactone (PHA)"
+  ],
+  "sodium-hydroxide": [
+    "氢氧化钠 (烧碱中和剂)"
+  ],
+  "sodium-chloride": [
+    "氯化钠 (普通食盐)"
+  ],
+  "glycerin": [
+    "丙三醇",
+    "甘油 (丙三醇)"
+  ],
+  "butylene-glycol": [
+    "丁二醇"
+  ],
+  "carbomer": [
+    "卡波姆 (交联聚丙烯酸树脂)"
+  ],
+  "hydroxyethylcellulose": [
+    "Hydroxyethylcellulose (HEC)"
+  ],
+  "argan-oil": [
+    "刺阿干树(ARGANIA SPINOSA)仁油",
+    "刺阿干树仁油 (摩洛哥坚果油)",
+    "Argania Spinosa (Argan) Oil",
+    "Argania Spinosa (Argan) Kernel Oil",
+    "刺阿干树（ARGANIA SPINOSA）仁油"
+  ],
+  "jojoba-oil": [
+    "霍霍巴(SIMMONDSIA CHINENSIS)籽油",
+    "Simmondsia Chinensis (Jojoba) Oil",
+    "Simmondsia Chinensis (Jojoba) Seed Oil",
+    "霍霍巴（SIMMONDSIA CHINENSIS）籽油"
+  ],
+  "coconut-oil": [
+    "椰子(COCOS NUCIFERA)油",
+    "Cocos Nucifera (Coconut) Oil",
+    "椰子（COCOS NUCIFERA）油"
+  ]
 }

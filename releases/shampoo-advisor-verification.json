@@ -1,38 +1,69 @@
 {
-  "verifiedAt": "2026-11-07T21:50:40+08:00",
+  "verifiedAt": "2026-11-09T11:43:35+08:00",
   "skill": "shampoo-advisor",
-  "snapshotVersion": "1-79c0938692c9",
+  "schemaVersion": 2,
+  "snapshotVersion": "2-17261b15e9df",
   "tests": {
-    "passed": 23,
+    "passed": 25,
     "failed": 0,
     "command": "npm test"
   },
   "websiteBuild": "passed: npm run build",
-  "skillStructure": "passed: skill-creator quick_validate.py",
+  "skillStructure": "passed: required files present; all 13 extracted files match source SHA-256; standalone CLI executed outside the project",
   "benchmark": {
     "command": "npm run skill:benchmark",
     "node": "v22.14.0",
     "ingredientCount": 15,
     "warmRuns": 300,
-    "warmMedianMs": 0.102,
-    "warmP95Ms": 0.264,
+    "warmMedianMs": 0.079,
+    "warmP95Ms": 0.316,
     "freshProcessRuns": 20,
-    "freshProcessMedianMs": 90.481,
-    "freshProcessP95Ms": 95.092,
-    "scope": "Local lookup and matching, excluding image recognition and AI response generation.",
-    "recordedAt": "2026-11-07T17:11:15+08:00"
+    "freshProcessMedianMs": 107.621,
+    "freshProcessP95Ms": 145.405,
+    "outputBytes": 15174,
+    "scope": "Local lookup and matching, excluding image recognition and AI response generation."
   },
-  "isolatedZipExecution": "passed: batch analysis from extracted package in a temporary directory",
+  "isolatedZipExecution": {
+    "status": "passed",
+    "method": "Extracted ZIP into an independent temporary directory and ran its CLI with --stdin from outside the project.",
+    "schemaVersion": 2,
+    "snapshotVersion": "2-17261b15e9df",
+    "matchedPositiveInputs": 4,
+    "matchedUncertainInputs": 0,
+    "drugIncludedInRecommendations": false,
+    "reviewMetadataPreserved": true,
+    "filesMatchSource": true,
+    "temporaryDirectoryRemoved": false,
+    "cleanup": "Automatic approval review rejected deletion of the isolated temporary verification directory."
+  },
+  "localBrowserVerification": {
+    "status": "passed",
+    "scope": "Local production preview; not a live Netlify deployment check.",
+    "overview": "152 ingredients, 6 modules and 6 columns",
+    "profileBehavior": "Immediate two-table updates; oily scalp with coarse hair does not promote auxiliary ingredients",
+    "search": "Chinese guar-gum and Jojoba aliases return matching records",
+    "mobileViewportWidth": 390,
+    "pageHorizontalOverflow": false,
+    "consoleErrorsAndWarnings": 0
+  },
   "package": {
     "path": "releases/shampoo-advisor.zip",
-    "fileCount": 11,
-    "bytes": 45089,
-    "sha256": "69a0dabbbc79a75a57b3b0ebb1407c8c02a5c5f333c69c01eec2590d0bba9faf",
+    "rootDirectory": "shampoo-advisor/",
+    "fileCount": 13,
+    "bytes": 49592,
+    "sha256": "95dcc84cdb09bef726f111930d08f87191ed6e4f666df73b68c1504c332846e7",
     "license": "MIT"
+  },
+  "installedCopy": {
+    "path": "~/.agents/skills/shampoo-advisor",
+    "fileCount": 13,
+    "filesMatchSource": true,
+    "comparison": "All files compared by SHA-256."
   },
   "limits": [
     "No real user photo was supplied; actual visual transcription and image quality were not tested.",
     "Skill discovery in a newly opened chat was not observed.",
-    "Source literature has not been individually verified."
+    "Reference verification is scoped per record; this does not mean every cited publication was verified.",
+    "The full skill-creator validator was not rerun in this review."
   ]
 }

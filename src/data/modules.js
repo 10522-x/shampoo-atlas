@@ -8,188 +8,20 @@ export const MODULES = Object.freeze([
   { id: 'formula-support', name: '防腐、酸碱调节与配方辅助成分', title: '防腐、酸碱调节与配方辅助成分', shortName: '配方辅助', english: 'Preservation & formula support', description: '帮助维持防腐、酸碱、稳定性与产品质地。' },
 ]);
 
-// 一个主展示模块不排除成分具有多项功能；原始说明始终保留。
-// APG 可作为主表活或辅助，当前列入主清洁模块；Trideceth-12 为乳化辅助。
-export const MODULE_INGREDIENT_IDS = Object.freeze({
-  'primary-surfactants': [
-    'sodium-laureth-sulfate',
-    'ammonium-laureth-sulfate',
-    'sodium-c14-16-olefin-sulfonate',
-    'sodium-cocoyl-isethionate',
-    'sodium-lauroyl-methyl-isethionate',
-    'sodium-lauroyl-sarcosinate',
-    'sodium-cocoyl-glutamate',
-    'disodium-cocoyl-glutamate',
-    'sodium-cocoyl-glycinate',
-    'sodium-methyl-cocoyl-taurate',
-    'disodium-laureth-sulfosuccinate',
-    'decyl-glucoside',
-    'coco-glucoside',
-    'lauryl-glucoside',
-    'sodium-lauroyl-glutamate',
-    'potassium-cocoyl-glycinate',
-    'sodium-lauryl-sulfate',
-    'ammonium-lauryl-sulfate',
-    'sodium-myreth-sulfate',
-    'tea-lauryl-sulfate',
-    'sodium-methyl-oleoyl-taurate',
-    'sodium-cocoyl-alaninate',
-  ],
-  'co-surfactants': [
-    'cocamidopropyl-betaine',
-    'cocamidopropyl-hydroxysultaine',
-    'sodium-cocoamphoacetate',
-    'disodium-cocoamphodiacetate',
-    'coco-betaine',
-    'lauramidopropyl-betaine',
-    'lauryl-hydroxysultaine',
-    'sodium-lauroamphoacetate',
-    'cocamide-mea',
-    'cocamide-dea',
-    'peg-80-sorbitan-laurate',
-    'polysorbate-20',
-    'caprylyl-capryl-glucoside',
-    'trideceth-12',
-  ],
-  'film-formers': [
-    'dimethicone',
-    'amodimethicone',
-    'dimethiconol',
-    'polyquaternium-10',
-    'polyquaternium-7',
-    'peg-12-dimethicone',
-    'cyclopentasiloxane',
-    'cyclohexasiloxane',
-    'bis-aminopropyl-dimethicone',
-    'phenyl-trimethicone',
-    'dimethicone-copolyol',
-    'trimethylsiloxysilicate',
-    'cetyl-dimethicone',
-    'stearyl-dimethicone',
-    'polyquaternium-11',
-    'polyquaternium-22',
-    'polyquaternium-37',
-    'polyquaternium-47',
-    'polyquaternium-70',
-    'polyquaternium-87',
-    'silicone-quaternium-16',
-    'silicone-quaternium-22',
-  ],
-  conditioners: [
-    'guar-hydroxypropyltrimonium-chloride',
-    'panthenol',
-    'glycerin',
-    'hydrolyzed-keratin',
-    'hydrolyzed-wheat-protein',
-    'hydrolyzed-silk',
-    'cetrimonium-chloride',
-    'behentrimonium-chloride',
-    'behentrimonium-methosulfate',
-    'stearamidopropyl-dimethylamine',
-    'propylene-glycol',
-    'butylene-glycol',
-    'dipropylene-glycol',
-    'argan-oil',
-    'jojoba-oil',
-    'coconut-oil',
-    'cetrimonium-bromide',
-    'hydrolyzed-collagen',
-    'hydrolyzed-soy-protein',
-    'hydrolyzed-rice-protein',
-    'hydrolyzed-yeast-protein',
-    'keratin-amino-acids',
-    'silk-amino-acids',
-    'wheat-amino-acids',
-    'arginine',
-    'panthenyl-ethyl-ether',
-    'phytantriol',
-    'quaternium-80',
-    'quaternium-91',
-    'dipalmitoylethyl-hydroxyethylmonium-methosulfate',
-    'distearoylethyl-dimonium-chloride',
-    'palmitamidopropyltrimonium-chloride',
-    'bis-isostearoyl-oleoyl-isopropyl-dimonium-methosulfate',
-  ],
-  'scalp-actives': [
-    'piroctone-olamine',
-    'salicylic-acid',
-    'climbazole',
-    'zinc-pyrithione',
-    'zinc-pca',
-    'niacinamide',
-    'allantoin',
-    'dipotassium-glycyrrhizate',
-    'menthol',
-    'tea-tree-oil',
-    'caffeine',
-    'ketoconazole',
-    'selenium-sulfide',
-    'centella-asiatica-extract',
-    'rosemary-leaf-oil',
-    'peppermint-oil',
-    'copper-tripeptide-1',
-    'biotin',
-    'saw-palmetto-extract',
-    'pyridoxine-hcl',
-    'glycolic-acid',
-    'lactic-acid',
-    'salix-alba-bark-extract',
-    'eucalyptus-globulus-oil',
-    'epilobium-fleischeri-extract',
-  ],
-  'formula-support': [
-    'phenoxyethanol',
-    'sodium-benzoate',
-    'potassium-sorbate',
-    'ethylhexylglycerin',
-    'disodium-edta',
-    'citric-acid',
-    'sodium-chloride',
-    'sodium-hydroxide',
-    'sodium-citrate',
-    'caprylyl-glycol',
-    '1-2-hexanediol',
-    'sodium-phytate',
-    'tetrasodium-edta',
-    'methylchloroisothiazolinone',
-    'methylisothiazolinone',
-    'benzyl-alcohol',
-    'dmdm-hydantoin',
-    'imidazolidinyl-urea',
-    'diazolidinyl-urea',
-    'dehydroacetic-acid',
-    'benzoic-acid',
-    'tocopherol',
-    'tocopheryl-acetate',
-    'bht',
-    'ascorbic-acid',
-    'sodium-metabisulfite',
-    'gluconolactone',
-    'chlorphenesin',
-    'benzophenone-4',
-    'peg-150-distearate',
-    'acrylates-copolymer',
-    'carbomer',
-    'xanthan-gum',
-    'hydroxyethylcellulose',
-    'cocamide-mipa',
-    'c13-14-isoparaffin',
-  ],
-});
+const MODULE_BY_ID = new Map(MODULES.map(module => [module.id, module]));
+const MODULE_ORDER = new Map(MODULES.map((module, index) => [module.id, index]));
 
-export const INGREDIENT_MODULE = Object.freeze(Object.fromEntries(
-  Object.entries(MODULE_INGREDIENT_IDS).flatMap(([moduleId, ids]) => ids.map(id => [id, moduleId])),
-));
-
-export const EDITORIAL_ORDER_IDS = Object.freeze(MODULES.flatMap(module => MODULE_INGREDIENT_IDS[module.id]));
-export const DISPLAY_ORDER = Object.freeze(Object.fromEntries(EDITORIAL_ORDER_IDS.map((id, index) => [id, index])));
-
-export function getIngredientModule(ingredientOrId) {
-  const id = typeof ingredientOrId === 'string' ? ingredientOrId : ingredientOrId?.id;
-  return MODULES.find(module => module.id === INGREDIENT_MODULE[id]);
+// 分组与组内顺序直接由数据库条目的 module / order 决定。
+export function getIngredientModule(ingredient) {
+  const module = MODULE_BY_ID.get(ingredient?.module);
+  if (!module) throw new Error('Unknown ingredient module: ' + String(ingredient?.id ?? ingredient));
+  return module;
 }
 
 export function compareIngredients(first, second) {
-  const order = (DISPLAY_ORDER[first.id] ?? Number.MAX_SAFE_INTEGER) - (DISPLAY_ORDER[second.id] ?? Number.MAX_SAFE_INTEGER);
-  return order || first.id.localeCompare(second.id);
+  getIngredientModule(first);
+  getIngredientModule(second);
+  return MODULE_ORDER.get(first.module) - MODULE_ORDER.get(second.module)
+    || first.order - second.order
+    || first.id.localeCompare(second.id);
 }

@@ -70,7 +70,7 @@ export default function IngredientTable({
                       <span className="ingredient-name">{ingredient.cn}</span>
                       <span className="ingredient-inci" lang="en">{ingredient.inci}</span>
                     </td>
-                    <td>{ingredient.func}</td>
+                    <td>{ingredient.func}{ingredient.typicalProduct?.includes('conditioner') && !ingredient.typicalProduct.includes('shampoo') ? ' 常见于护发素或发膜。' : ''}</td>
                     <td>
                       <ul className="ingredient-tags">
                         {(ingredient.best || []).map((tag, tagIndex) => (
@@ -80,13 +80,17 @@ export default function IngredientTable({
                     </td>
                     <td>
                       <ul className="ingredient-tags">
-                        {(ingredient.avoid || []).map((tag, tagIndex) => (
+                        {[...(ingredient.avoid || []), ...(ingredient.cautions || [])].map((tag, tagIndex) => (
                           <li className="ingredient-tag" key={`${tagIndex}-${tag}`}>{tag}</li>
                         ))}
                       </ul>
                     </td>
-                    <td>{ingredient.synergy}</td>
-                    <td className="ingredient-source">{ingredient.src}</td>
+                    <td>{[ingredient.isDrug ? '药用成分，按当地药品规定及说明或医嘱使用。' : '', ingredient.synergy, ...(ingredient.regulatory || []).map(item => `${item.region}：${item.note}`)].filter(Boolean).join(' ')}</td>
+                    <td className="ingredient-source">
+                      {(ingredient.refs || []).map((ref, refIndex) => <span key={refIndex} style={{ display: 'block' }} title={`${ref.title}。${ref.scope}`}>
+                        {ref.verified && ref.url ? <a href={ref.url} target="_blank" rel="noreferrer" aria-label={`${ref.title}。${ref.scope}`}>{ref.label || ref.title}</a> : `${ref.title}（待核实）`}
+                      </span>)}
+                    </td>
                   </tr>
                 ))}
               </tbody>
